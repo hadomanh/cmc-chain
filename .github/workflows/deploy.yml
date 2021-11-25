@@ -23,7 +23,7 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.STG_HOST }}
-          username: ${{ secrets.USERNAME }}
+          username: ${{ secrets.STG_USERNAME }}
           password: ${{ secrets.STG_PASSWORD }}
           port: 22
           script: |
