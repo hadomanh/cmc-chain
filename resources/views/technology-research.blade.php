@@ -159,7 +159,7 @@
             $('.research-content').addClass('d-none');
 
             $(this).addClass('research-tab-active');
-            $('#' + $(this).attr('data-id')).removeClass('d-none');
+            $('#' + $(this).data('id')).removeClass('d-none');
         })
     })
 </script>

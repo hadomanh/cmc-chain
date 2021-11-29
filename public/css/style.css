@@ -334,6 +334,7 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 }
 .research-tab {
 	padding: 10px;
+	cursor: pointer;
 }
 .research-tab-active {
 	background: #F3F3F3;
