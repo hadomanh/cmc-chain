@@ -20,6 +20,11 @@ Route::get('/', function () {
 });
 
 Route::prefix('technology')->group(function () {
+
+    Route::get('layer-1-capabilities', function () {
+        return view('technology-capabilities');
+    })->name('technology.capabilities');
+
     Route::get('research', function () {
         return view('technology-research');
     })->name('technology.research');
