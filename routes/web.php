@@ -25,6 +25,12 @@ Route::prefix('technology')->group(function () {
     })->name('technology.research');
 });
 
+Route::prefix('company')->group(function () {
+    Route::get('technical-advisory-board', function () {
+        return view('company-advisor');
+    })->name('company.advisor');
+});
+
 Auth::routes();
 
 Route::middleware('auth')->prefix('admin')->group(function () {

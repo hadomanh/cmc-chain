@@ -381,6 +381,20 @@ h2 {
 	margin-top: 80px;
 	margin-bottom: 100px;
 }
+.ataandfb{
+	margin-top: 10px;
+    color: #000;
+}
+.andrechris{
+	margin-top: -18px;
+    color: #000;
+    font-weight: 600;
+}
+.technical{
+	font-size: 25px;
+    color: #000;
+    margin-bottom: 40px;
+}
 /*========== INVESTORS ==========*/
 .investors {
 	padding-bottom: 0;
