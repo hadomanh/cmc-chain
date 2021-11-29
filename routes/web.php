@@ -19,6 +19,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::prefix('technology')->group(function () {
+    Route::get('research', function () {
+        return view('technology-research');
+    })->name('technology.research');
+});
+
 Auth::routes();
 
 Route::middleware('auth')->prefix('admin')->group(function () {

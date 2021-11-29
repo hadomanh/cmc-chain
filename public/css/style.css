@@ -272,6 +272,115 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 .hostedProjects .item i {
 	margin-right: 3px;
 }
+.andtext{
+	font-size: 30px;
+    margin-top: 60px;
+}
+.bordergainsboro{
+	border: 1px solid rgb(204, 203, 203);
+	color: #1F2137;
+	font-weight: 600;
+	padding: 10px;
+	margin-top: 60px;
+}
+.borderright{
+	border-right: 1px solid rgb(204, 203, 203);
+}
+.colleft{
+	text-align: left;
+	color: black;
+}
+.globe{
+	background: url(../img/globe.jpg) no-repeat center center;
+	color: #fff; 
+	padding-top: 275px;
+}
+.solving{
+	padding: 0px 120px;
+	line-height: 3;
+}
+.fzunder{
+	font-size: 19px;
+
+}
+.include{
+	line-height: 3;
+	padding: 0 70px;
+}
+.glowing{
+	background: url(../img/glowing.jpg) no-repeat center center;
+	color: #fff; 
+	padding-top: 275px;
+}
+.unique{
+	font-size: 20px;
+	margin-top: 30px;
+	text-align: left;
+	color: black;
+	font-weight: 600;
+}
+.functionality{
+	padding: 0 70px;
+}
+.colorpink{
+	color: #e3007a;
+}
+.research{
+	border: 1px solid #E4E4E4;
+    color: black;
+    font-weight: 600;
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+.research-tab {
+	padding: 10px;
+}
+.research-tab-active {
+	background: #F3F3F3;
+    border-right: 1px solid #E4E4E4;
+}
+.mbtagp{
+    margin-bottom: 37px;
+	margin-top: 16px;
+    font-weight: 600;
+}
+.text{
+	margin-top: 16px;
+    font-weight: 600;
+}
+.pdcontainer{
+	padding: 0 200px;
+}
+.colorbl{
+	color: #000;
+}
+h2 {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	padding-bottom: 17px;
+  }
+  h2:after {
+	content: "";
+    position: absolute;
+    left: 49%;
+    bottom: 0;
+    width: 44px;
+    border-bottom: 2px solid #e3007a;
+  }
+.journals{
+	color: #000;
+	font-weight: 600;
+	font-size: 15px;
+}
+.linkcmc{
+	margin-top: -15px;
+	color: #e3007a;
+}
+.topbottom{
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
 /*========== INVESTORS ==========*/
 .investors {
 	padding-bottom: 0;
