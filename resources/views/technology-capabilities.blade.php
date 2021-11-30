@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="p-0">
-    	<img src="{{ asset('img/banner-tech.jpg') }}" class="w-100">
-    </section>
-    <div id="techLayerPage">
+	<div id="techLayerPage">
+	    <section class="p-0">
+	    	<img src="{{ asset('img/banner-tech.jpg') }}" class="w-100">
+	    </section>
     	<section class="cmcFeatures">
 	    	<div class="container">
 	    		<h2 class="sectionHeading underline text-uppercase">CMCchain FEATURES & CAPABILITIES IN LAYER-1</h2>

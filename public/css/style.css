@@ -70,6 +70,10 @@ section .sectionSubHeading {
 	font-family: gothamLight;	
 	font-size: 20px;
 }
+.mw-700 {
+	max-width: 700px;
+	margin: 0 auto;
+}
 .underline {
 	text-align: center;
 	position: relative;
@@ -97,6 +101,14 @@ section .sectionSubHeading {
 	background: #fff;
 	border: 2px solid #e3007a;
 	color: #e3007a;	
+}
+.btnWhite:hover {
+	color: #e3007a;	
+}
+.btnWhite.sm {
+	border-width: 1px;
+    font-family: 'gothamBook';
+    padding: 8px 20px;
 }
 .btnRed {
 	background: #e3007a;
@@ -133,6 +145,40 @@ section .sectionSubHeading {
 }
 .bgLightBlue.bgArrow:before {	
 	background: url(../img/arrow-section-lightblue.png) no-repeat center center / contain;
+}
+.listFeatures {
+	border: 1px solid #c2c2c2;
+	border-radius: 5px;
+	padding: 15px 0;
+	text-align: center;
+}
+.listFeatures .item {
+	padding: 10px;
+	color: #23253a;
+}
+.listFeatures .item:not(:last-child) {
+	border-right: 1px solid #c2c2c2;
+}
+.timeline {
+	border-left: 2px solid #e3007a;
+}
+.timeline li {
+	position: relative;
+	padding-left: 20px;
+	font-family: 'gothamMedium';
+}
+.timeline li:not(:last-child) {
+	margin-bottom: 15px;
+}
+.timeline li:before {
+	content: "";
+	position: absolute;
+	left: -5px;
+	top: 5px;
+	width: 8px;
+	height: 8px;
+	background: #e3007a;
+	border-radius: 50%;
 }
 /*========================== HEADER ==========================*/
 header .top {
@@ -364,19 +410,6 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	background: rgba(3,153,181,.5);
 	color: #fff;
 }
-#techLayerPage .cmcFeatures .listFeatures {
-	border: 1px solid #c2c2c2;
-	border-radius: 5px;
-	padding: 15px 0;
-	text-align: center;
-}
-#techLayerPage .cmcFeatures .listFeatures .item {
-	padding: 10px;
-	color: #23253a;
-}
-#techLayerPage .cmcFeatures .listFeatures .item:not(:last-child) {
-	border-right: 1px solid #c2c2c2;
-}
 #techLayerPage .assets .sampleAssets {
 	border: 1px solid #c2c2c2;
 }
@@ -408,6 +441,10 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	border-top: 5px solid transparent;
 	border-left: 5px solid red;
 	border-bottom: 5px solid transparent;
+}
+/*========================== CORE PROTOCOL PAGE ==========================*/
+#coreProtocolPage {
+
 }
 /*========================== FOOTER ==========================*/
 footer {
