@@ -76,7 +76,7 @@
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li><a class="dropdown-item" href="{{ route('technology.capabilities') }}">Layer-1 Capabilities</a></li>
-								<li><a class="dropdown-item" href="#">Core Protocol</a></li>
+								<li><a class="dropdown-item" href="{{ route('technology.protocol') }}">Core Protocol</a></li>
 								<li><a class="dropdown-item" href="{{ route('technology.research') }}">Research</a></li>
 								<li><a class="dropdown-item" href="#">CMC Nativecoin</a></li>
 								<li><hr class="dropdown-divider"></li>

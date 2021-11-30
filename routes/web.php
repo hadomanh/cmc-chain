@@ -25,6 +25,10 @@ Route::prefix('technology')->group(function () {
         return view('technology-capabilities');
     })->name('technology.capabilities');
 
+    Route::get('core-protocol', function () {
+        return view('technology-protocol');
+    })->name('technology.protocol');
+
     Route::get('research', function () {
         return view('technology-research');
     })->name('technology.research');
