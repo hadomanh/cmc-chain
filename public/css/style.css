@@ -180,6 +180,35 @@ section .sectionSubHeading {
 	background: #e3007a;
 	border-radius: 50%;
 }
+.nav-tabs {
+	border: 1px solid #c2c2c2;
+	border-radius: 5px;
+	background: #fff;
+}
+.nav-tabs .nav-item:first-child button {
+	border-radius: 5px 0 0 5px;
+}
+.nav-tabs .nav-item:last-child button {
+	border-radius: 0 5px 5px 0;
+}
+.nav-tabs .nav-item:not(:last-child) {
+	border-right: 1px solid #c2c2c2;
+}
+.nav-tabs .nav-item .nav-link {
+	display: block;
+	width: 100%;
+	border: none;
+	margin-bottom: 0;
+	background: none;
+	color: #23253a;
+	font-family: gothamBold;
+	text-transform: uppercase;
+	padding: 25px 10px;
+}
+.nav-tabs .nav-item .nav-link.active {
+	background: #f3f3f3;
+	color: #e3007a;
+}
 /*========================== HEADER ==========================*/
 header .top {
 	padding: 10px 30px;
