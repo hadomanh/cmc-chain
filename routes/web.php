@@ -32,6 +32,29 @@ Route::prefix('technology')->group(function () {
     Route::get('research', function () {
         return view('technology-research');
     })->name('technology.research');
+
+    Route::get('native-coin', function () {
+        return view('technology-coin');
+    })->name('technology.coin');
+});
+
+Route::prefix('ecosystem')->group(function () {
+
+    Route::get('testnet', function () {
+        return view('ecosystem-testnet');
+    })->name('ecosystem.testnet');
+
+    Route::get('mainnet', function () {
+        return view('ecosystem-mainnet');
+    })->name('ecosystem.mainnet');
+
+    Route::get('cmc-wallets', function () {
+        return view('ecosystem-wallet');
+    })->name('ecosystem.wallet');
+
+    Route::get('wowidex', function () {
+        return view('ecosystem-wowidex');
+    })->name('ecosystem.wowidex');
 });
 
 Route::prefix('company')->group(function () {

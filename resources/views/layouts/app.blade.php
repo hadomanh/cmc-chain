@@ -59,7 +59,7 @@
 				</ul>
 			</div>
 			<nav class="navbar navbar-expand-lg bg-light">
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="/">
 					<img src="{{ asset('img/logo.png') }}" alt="">
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,7 +78,7 @@
 								<li><a class="dropdown-item" href="{{ route('technology.capabilities') }}">Layer-1 Capabilities</a></li>
 								<li><a class="dropdown-item" href="{{ route('technology.protocol') }}">Core Protocol</a></li>
 								<li><a class="dropdown-item" href="{{ route('technology.research') }}">Research</a></li>
-								<li><a class="dropdown-item" href="#">CMC Nativecoin</a></li>
+								<li><a class="dropdown-item" href="{{ route('technology.coin') }}">CMC Nativecoin</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
@@ -86,10 +86,10 @@
 								Ecosystem
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#">Action</a></li>
-								<li><a class="dropdown-item" href="#">Another action</a></li>
-								<li><hr class="dropdown-divider"></li>
-								<li><a class="dropdown-item" href="#">Something else here</a></li>
+								<li><a class="dropdown-item" href="{{ route('ecosystem.testnet')}}">Testnet</a></li>
+								<li><a class="dropdown-item" href="{{ route('ecosystem.mainnet')}}">Mainnet</a></li>
+								<li><a class="dropdown-item" href="{{ route('ecosystem.wallet')}}">CMC Wallets</a></li>
+								<li><a class="dropdown-item" href="{{ route('ecosystem.wowidex')}}">Wowidex</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
