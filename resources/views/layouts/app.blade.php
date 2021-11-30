@@ -79,8 +79,6 @@
 								<li><a class="dropdown-item" href="{{ route('technology.protocol') }}">Core Protocol</a></li>
 								<li><a class="dropdown-item" href="{{ route('technology.research') }}">Research</a></li>
 								<li><a class="dropdown-item" href="#">CMC Nativecoin</a></li>
-								<li><hr class="dropdown-divider"></li>
-								<li><a class="dropdown-item" href="#">Something else here</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
@@ -120,7 +118,7 @@
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 								Company
 							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
 								<li><a class="dropdown-item" href="#">Board of Directors</a></li>
 								<li><a class="dropdown-item" href="{{ route('company.advisor') }}">Technical Advisory</a></li>
 								<li><a class="dropdown-item" href="#">FAQs</a></li>
