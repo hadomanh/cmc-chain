@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 Route::prefix('technology')->group(function () {
 
@@ -55,6 +55,33 @@ Route::prefix('ecosystem')->group(function () {
     Route::get('wowidex', function () {
         return view('ecosystem-wowidex');
     })->name('ecosystem.wowidex');
+});
+
+Route::prefix('resource')->group(function () {
+
+    Route::get('community', function () {
+        return view('resource-community');
+    })->name('resource.community');
+
+    Route::get('documentations', function () {
+        return view('resource-documentations');
+    })->name('resource.documentations');
+
+    Route::get('brand-kit', function () {
+        return view('resource-brand-kit');
+    })->name('resource.brandkit');
+
+    Route::get('blog', function () {
+        return view('resource-blog');
+    })->name('resource.blog');
+
+    Route::get('white-paper', function () {
+        return view('resource-white-paper');
+    })->name('resource.whitepaper');
+
+    Route::get('smart-contract', function () {
+        return view('resource-smart-contract');
+    })->name('resource.smartcontract');
 });
 
 Route::prefix('company')->group(function () {

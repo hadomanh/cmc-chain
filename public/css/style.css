@@ -471,10 +471,17 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	border-left: 5px solid red;
 	border-bottom: 5px solid transparent;
 }
-/*========================== CORE PROTOCOL PAGE ==========================*/
+/*========================== BLOG PAGE ==========================*/
 #coreProtocolPage {
 
 }
+
+/*========================== CORE PROTOCOL PAGE ==========================*/
+#blogPagination span {
+	border: 1px solid #e3007a;
+	padding: 10px
+}
+
 /*========================== FOOTER ==========================*/
 footer {
 	background: #23253a;
