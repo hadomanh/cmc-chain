@@ -471,15 +471,49 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	border-left: 5px solid red;
 	border-bottom: 5px solid transparent;
 }
-/*========================== BLOG PAGE ==========================*/
+/*========================== CORE PROTOCOL PAGE ==========================*/
 #coreProtocolPage {
 
 }
 
-/*========================== CORE PROTOCOL PAGE ==========================*/
+/*========================== BLOG PAGE ==========================*/
+#resourceBlogPage {
+	background-color: #E6E6E6E6;
+}
 #blogPagination span {
 	border: 1px solid #e3007a;
 	padding: 10px
+}
+
+/*========================== DOCUMENTATION PAGE ==========================*/
+#resourceDocumentationPage #documentationHeader {
+	background-color: #E6E6E6E6;
+}
+
+#documentationHeader h1 {
+	padding-top: 15px;
+	margin-bottom: -5px;
+}
+
+#documentationHeader p {
+	padding-top: 35px;
+}
+
+#documentationHeader hr {
+	border-top: 2px solid #e3007a;
+	color: #e3007a;
+	width: 50px;
+	margin: auto;
+}
+
+#documentationContent div {
+	-webkit-column-count: 2;
+      -moz-column-count: 2;
+           column-count: 2;
+
+   -webkit-column-gap: 20px;
+      -moz-column-gap: 20px;
+           column-gap: 20px;
 }
 
 /*========================== FOOTER ==========================*/

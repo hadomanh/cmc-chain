@@ -6,7 +6,7 @@
         <img src="{{ asset('img/banner-resource-ft.jpg') }}" class="w-100">
     </section>
 
-    <div class="container mt-5 mb-5">
+    <div class="container pt-5 pb-5">
         <h1>CMC Chain Blog</h1>
         <div class="row">
             <div class="col-4 mt-3">
@@ -100,7 +100,7 @@
             </div>
             
         </div>
-        <div class="d-flex justify-content-center mt-5">
+        <div class="d-flex justify-content-center pt-5">
             <div id="blogPagination">
                 <span style="color: #e3007a">PREVIOUS</span>
                 <span class="text-muted">Page 1 of 28</span>
