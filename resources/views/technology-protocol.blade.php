@@ -34,7 +34,7 @@
 				    			<div class="col-md-6">
 				    				<p class="mb-5">CMCchain uses cryptographic sortition to select users to propose blocks for a given round. When a block is proposed to the blockchain, a committee of voters is selected to vote on the block proposal. If a super majority of the votes are from honest participants, the block can be certified.</p>
 				    				<div class="text-center">
-				    					<a href="#" class="btn btnWhite sm">LEARN MORE <span class="ms-2">&xrarr;</span></a>
+				    					<a href="#" class="btn btnOutlineRed sm">LEARN MORE <span class="ms-2">&xrarr;</span></a>
 				    				</div>
 				    			</div>
 				    			<div class="col-md-6">
@@ -65,7 +65,7 @@
 				    			<div class="col-md-6">
 				    				<p class="text-end pe-3 mb-5">Second, when the adversary realizes which users are selected, it is too late for him to benefit from attacking them. Those users has already fulfilled their responsibility in the consensus protocol. In the next round of block certification, a new set of users will again be privately and individually chosen.</p>
 				    				<div class="text-center">
-				    					<a href="#" class="btn btnWhite sm">LEARN MORE <span class="ms-2">&xrarr;</span></a>
+				    					<a href="#" class="btn btnOutlineRed sm">LEARN MORE <span class="ms-2">&xrarr;</span></a>
 				    				</div>
 				    			</div>
 				    			<div class="col-md-6">
@@ -123,7 +123,7 @@
 									<h6>User Replaceability</h6>
 									<p class="mb-5">In the CMCchain protocol, participants change every round of block selection in order to protect the network against attackers. Before they participate, no one knows who the users are, and once they participate, their message is already propagating through the network so it is too late for an attacker to benefit from attacking them. For each round, every set of participants is random and independent of earlier participants.</p>
 									<div class="text-center">
-										<a href="#" class="btn btnWhite sm">LEARN MORE <span class="ms-2">⟶</span></a>
+										<a href="#" class="btn btnOutlineRed sm">LEARN MORE <span class="ms-2">⟶</span></a>
 									</div>
 								</div>
 							</div>
@@ -151,7 +151,7 @@
 							<div class="col-md-6">
 								<p class="mb-5">To ensure network security, relay nodes are both diverse and decentralized. Relay nodes are run by a number of entities representing a wide array of technical, political, and organizational backgrounds across many different countries and continents. Any network participant may host a relay node.</p>
 								<div class="text-center">
-									<a href="#" class="btn btnWhite sm">LEARN MORE <span class="ms-2">⟶</span></a>
+									<a href="#" class="btn btnOutlineRed sm">LEARN MORE <span class="ms-2">⟶</span></a>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -169,7 +169,7 @@
 								<p>The CMCchain blockchain does not fork. Unlike with proof-of-work protocols, two different blocks can never be added to the chain in the same position. Only one block can have the required threshold of signatures in order to be certified in a given round.</p>
 								<p class="mb-5">All transactions are final in CMCchain. Once a block appears, users can rely on the transactions it contains immediately, as they can be confident that the block will forever be part of the chain. Even if the Internet is split into multiple pools of users, only one safe and consistent CMCchain chain will exist.</p>
 								<div class="text-center">
-									<a href="#" class="btn btnWhite sm">LEARN MORE <span class="ms-2">⟶</span></a>
+									<a href="#" class="btn btnOutlineRed sm">LEARN MORE <span class="ms-2">⟶</span></a>
 								</div>
 							</div>
 						</div>
@@ -222,7 +222,7 @@
 								<p>Low Cost to Participate</p>
 								<p>The CMCchain platform requires minimal processing power and modest IT resources to join. All online users who possess algos are automatically eligible to participate in block consensus.</p>
 								<div class="text-center mt-5">
-									<a href="#" class="btn btnWhite sm">LEARN MORE <span class="ms-2">⟶</span></a>
+									<a href="#" class="btn btnOutlineRed sm">LEARN MORE <span class="ms-2">⟶</span></a>
 								</div>
 							</div>
 						</div>
@@ -243,7 +243,7 @@
 							<h2 class="sectionHeading underline text-uppercase">NETWORK-LEVEL SECURITY: PARTITION RESILIENCE</h2>
 							<p>The CMCchain protocol is secure against an adversary who may achieve complete control over the network and dictate which users receive which messages and when. Even when the network is partitioned into multiple non-connected networks, CMCchain’s blockchain does not fork and users’ balances remain secure. An adversary is never able to convince two honest users to accept two different blocks for the same round. All transactions that appear on the blockchain are always final. CMCchain is able to recover after a partition is resolved and guarantees that new blocks will be generated at the same speed as before the partition.</p>
 							<div class="text-center mt-5">
-								<a href="#" class="btn btnWhite sm">LEARN MORE <span class="ms-2">⟶</span></a>
+								<a href="#" class="btn btnOutlineRed sm">LEARN MORE <span class="ms-2">⟶</span></a>
 							</div>
 						</div>
 					</section>
@@ -256,7 +256,7 @@
 							<div class="col-md-6">
 								<p>The CMCchain node repository is open sourced and publicly available for anyone to audit, use, and build upon. The platform is founded in principles of transparency, inclusivity, and collaboration and maintained by a dedicated community with a shared vision of a decentralized, borderless future.</p>
 								<div class="text-center mt-5">
-									<a href="#" class="btn btnWhite sm">LEARN MORE <span class="ms-2">⟶</span></a>
+									<a href="#" class="btn btnOutlineRed sm">LEARN MORE <span class="ms-2">⟶</span></a>
 								</div>
 							</div>
 						</div>

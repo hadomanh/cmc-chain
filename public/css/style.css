@@ -92,28 +92,64 @@ section .sectionSubHeading {
 .textPink {
 	color: #e3007a;
 }
+.whiteBox {
+	padding: 15px 20px;
+	border-radius: 5px;
+	background: #fff;
+}
 .btn {
 	padding: 12px 25px;
 	border-radius: 50px;
 	font-family: gothamMedium;
 }
-.btnWhite {
+.btn.sm {
+	border-width: 1px;
+    font-family: 'gothamBook';
+    padding: 8px 20px;
+}
+.btnOutlineRed {
 	background: #fff;
 	border: 2px solid #e3007a;
 	color: #e3007a;	
 }
-.btnWhite:hover {
+.btnOutlineRed:hover {
 	color: #e3007a;	
 }
-.btnWhite.sm {
-	border-width: 1px;
-    font-family: 'gothamBook';
-    padding: 8px 20px;
+.btnOutlineBlue {
+	background: #fff;
+	border: 2px solid #0399b5;
+	color: #0399b5;	
+}
+.btnOutlineBlue:hover {
+	color: #0399b5;	
 }
 .btnRed {
 	background: #e3007a;
 	border: 2px solid #fff;
 	color: #fff;	
+}
+ul.style-1 {
+	margin-left: -15px;
+}
+ul.style-2 li {
+	list-style: none;
+	position: relative;	
+	padding-left: 30px;
+}
+ul.style-2 li:not(:last-child) {
+	margin-bottom: 10px;
+}
+ul.style-2 li:before {
+	content: "";
+	display: inline-block;
+	transform: rotate(45deg);
+	height: 15px;
+	width: 10px;
+	border-bottom: 2px solid #23253a;
+	border-right: 2px solid #23253a;
+	position: absolute;
+	left: 5px;
+	top: -2px;
 }
 .bgArrow:before {
 	content: "";
@@ -131,6 +167,9 @@ section .sectionSubHeading {
 }
 .bgWhite.bgArrow:before {	
 	background: url(../img/arrow-section-white.png) no-repeat center center / contain;
+}
+.bgGrey {
+	background: #f3f3f3;
 }
 .bgGradBlue {
 	color: #fff;
@@ -424,9 +463,6 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	position: relative;
 	margin-bottom: 25px;
 }
-#techLayerPage ul.style-1 {
-	margin-left: -15px;
-}
 #techLayerPage ul li {
 	margin-bottom: 10px;
 }
@@ -470,6 +506,59 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	border-top: 5px solid transparent;
 	border-left: 5px solid red;
 	border-bottom: 5px solid transparent;
+}
+/*========================== TESTNET PAGE ==========================*/
+#testnetPage .advantage .item {
+	background: #fff;
+	padding: 15px 20px 15px 40px;
+	position: relative;
+	margin: 20px 0;
+}
+#testnetPage .advantage .item span {
+	position: absolute;
+	left: 10px;
+	top: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20px;
+	height: 20px;
+	background: #000;
+	color: #fff;
+	border-radius: 50%;
+}
+#testnetPage .listNews .container > .row > div {
+	margin-bottom: 20px;
+}
+#testnetPage .listNews .item,
+#testnetPage .listNews .item > .row,
+#testnetPage .listNews .item .info,
+#testnetPage .listNews .item .info > .row {
+	height: 100%;
+}
+#testnetPage .listNews .item .info {
+	padding: 20px;
+	box-shadow: 0px 0px 10px #bfbfbf;
+}
+#testnetPage .listNews .item .badge {
+	background: #0399b5;
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-size: 14px;
+}
+#testnetPage .listNews .item .title {
+	margin: 20px 0;
+	text-transform: uppercase;
+}
+#testnetPage .listNews .item .readmore {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	color: #0399b5;
+	border: 1px solid #0399b5;
+	border-radius: 5px;
+	background: #f8f8f8;
+	padding: 8px;
 }
 /*========================== CORE PROTOCOL PAGE ==========================*/
 #coreProtocolPage {
