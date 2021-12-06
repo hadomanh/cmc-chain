@@ -84,10 +84,44 @@ Route::prefix('resource')->group(function () {
     })->name('resource.smartcontract');
 });
 
+Route::prefix('external-resource')->group(function () {
+    Route::get('cmc-invest', function () {
+        return view('external-invest');
+    })->name('external.invest');
+
+    Route::get('cmc-foundation', function () {
+        return view('external-foundation');
+    })->name('external.foundation');
+
+    Route::get('diasplat', function () {
+        return view('external-diasplat');
+    })->name('external.diasplat');
+
+    Route::get('onstora', function () {
+        return view('external-onstora');
+    })->name('external.onstora');
+
+    Route::get('payment-gate', function () {
+        return view('external-paymentgate');
+    })->name('external.paymentgate');
+});
+
 Route::prefix('company')->group(function () {
+    Route::get('board-of-directors', function () {
+        return view('company-directors');
+    })->name('company.directors');
+
     Route::get('technical-advisory-board', function () {
         return view('company-advisor');
     })->name('company.advisor');
+
+    Route::get('faqs', function () {
+        return view('company-faqs');
+    })->name('company.faqs');
+
+    Route::get('contact-us', function () {
+        return view('company-contact');
+    })->name('company.contact');
 });
 
 Auth::routes();
