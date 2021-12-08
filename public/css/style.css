@@ -66,6 +66,12 @@ section .sectionHeading {
 	font-size: 30px;
 	margin-bottom: 25px;
 }
+section .sectionHeading.style-2 {
+	color: #464646;
+}
+section .sectionHeading.style-2:first-letter {
+	color: #e6571d;
+}
 section .sectionSubHeading {
 	font-family: gothamLight;	
 	font-size: 20px;
@@ -92,10 +98,22 @@ section .sectionSubHeading {
 .textPink {
 	color: #e3007a;
 }
+.text-blue {
+	color: #0399b5;
+}
+.bg-grey {
+	background: #f3f3f3;
+}
 .whiteBox {
 	padding: 15px 20px;
 	border-radius: 5px;
 	background: #fff;
+}
+.greyBox {
+	padding: 15px 20px;
+	border-radius: 5px;
+	background: #484c72;
+	color: #fff;
 }
 .btn {
 	padding: 12px 25px;
@@ -106,6 +124,12 @@ section .sectionSubHeading {
 	border-width: 1px;
     font-family: 'gothamBook';
     padding: 8px 20px;
+}
+.btn.xs {
+	border-width: 1px;
+    font-family: 'gothamBook';
+    padding: 0 6px;
+    font-size: 14px;
 }
 .btnOutlineRed {
 	background: #fff;
@@ -127,6 +151,30 @@ section .sectionSubHeading {
 	background: #e3007a;
 	border: 2px solid #fff;
 	color: #fff;	
+}
+.btnBlue {
+	background: #0399b5;
+	color: #fff;
+}
+.btnGrad {
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: gothamBook;
+	padding: 10px;
+	line-height: 100%;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: 0.5s;
+	background-size: 200% auto;
+	background-image: linear-gradient(to right, #e6571d 0%, #ffa133  51%, #eb870e  100%);
+}
+.btnGrad:hover {
+	color: #fff;
+	background-position: right center;
+}
+.btnGrad .fas {
+	margin: 0 10px;
 }
 ul.style-1 {
 	margin-left: -15px;
@@ -150,6 +198,10 @@ ul.style-2 li:before {
 	position: absolute;
 	left: 5px;
 	top: -2px;
+}
+table.v-align-middle td,
+table.v-align-middle th {
+	vertical-align: middle;
 }
 .bgArrow:before {
 	content: "";
@@ -559,6 +611,155 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	border-radius: 5px;
 	background: #f8f8f8;
 	padding: 8px;
+}
+/*========================== MAINNET PAGE ==========================*/
+#mainnetPage {
+	background: #23253a;
+	color: #fff;
+}
+#mainnetPage .search .input-group input {
+	background: #60627c;
+	font-size: 14px;
+	border: none;
+	color: #a3a5c2;
+}
+#mainnetPage .search .input-group input:focus {
+	box-shadow: none;
+	outline: none;
+}
+#mainnetPage .search .input-group button {
+	margin-left: 0;
+	color: #fff;
+	border-radius: 0 5px 5px 0;
+	padding: 10px 30px;
+}
+#mainnetPage ::placeholder {
+	color: #a3a5c2;
+	opacity: 1;
+}
+#mainnetPage :-ms-input-placeholder {
+	color: #a3a5c2;
+}
+#mainnetPage ::-ms-input-placeholder {
+	color: #a3a5c2;
+}
+#mainnetPage .inner {
+	height: 100%;
+}
+#mainnetPage .overview .item {
+	margin-bottom: 25px;
+}
+#mainnetPage .overview .statistic > .row > div {
+	margin-bottom: 40px;
+}
+#mainnetPage .overview .statistic .icon {
+	margin-right: 20px;
+}
+#mainnetPage table {
+	color: #fff;
+}
+#mainnetPage table .address span {
+	display: inline-block;
+	width: 50px;
+}
+#mainnetPage table tr th {
+	font-family: gothamBold;
+	white-space: nowrap;
+}
+#mainnetPage table tr th:first-child,
+#mainnetPage table tr th:last-child {
+	width: 40px;
+}
+#mainnetPage table tr th:last-child,
+#mainnetPage table tr td:last-child {
+	text-align: right;
+}
+#mainnetPage table tr th,
+#mainnetPage table tr td {
+	border-color: rgba(255,255,255,.2);
+}
+#mainnetPage table tr:last-child td {
+	border: none;
+}
+#mainnetPage table .icon {
+	display: flex;
+	width: 30px;
+	height: 30px;
+	background: #23253a;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+/*========================== WALLET PAGE ==========================*/
+#walletPage {
+
+}
+#walletPage .banner {
+	color: #fff;
+    padding: 150px 50px 50px;
+    background: url(../img/banner-wallet.jpg) no-repeat center center / cover;
+}
+#walletPage .banner .iconPlay {
+	display: flex;
+    color: #fff;
+    width: 37px;
+    height: 37px;
+    background: #e76218;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-left: 15px;
+    border: 2px solid #e76218;
+}
+#walletPage .banner .iconPlay:hover {
+	background: none;
+}
+#walletPage .banner .bottom {
+	margin-top: 150px;
+}
+#walletPage .banner .downloadApp a {
+	display: inline-block;
+}
+#walletPage .banner .downloadApp img {
+	height: 40px;
+	margin: 0 5px;
+}
+#walletPage .currencies img {
+	width: 100px;
+}
+#walletPage .whySpendWallet .item img {
+	width: 130px;
+}
+#walletPage .whySpendWallet .title {
+	font-family: gothamBold;
+	margin: 15px 0;
+}
+#walletPage .download .qrCode {
+	margin: 30px 0;
+}
+#walletPage .download .market {
+	margin-bottom: 30px;
+}
+#walletPage .download .market a:not(:last-child) {
+	margin-right: 20px;
+}
+#walletPage .download .market img {
+	height: 40px;
+}
+#walletPage .import .item {
+	margin-bottom: 20px;
+}
+#walletPage .import .item .icon {
+	display: inline-block;
+	border: 1px solid #c6c6c6;
+	border-radius: 50%;
+	padding: 10px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+#walletPage .import .item .icon img {
+	width: 25px;
 }
 /*========================== CORE PROTOCOL PAGE ==========================*/
 #coreProtocolPage {

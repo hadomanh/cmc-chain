@@ -93,14 +93,15 @@
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<a class="nav-link dropdown-toggle {{ str_contains(Route::currentRouteName(), 'external.') ? 'active' : '' }}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 								External Resourcus
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#">Action</a></li>
-								<li><a class="dropdown-item" href="#">Another action</a></li>
-								<li><hr class="dropdown-divider"></li>
-								<li><a class="dropdown-item" href="#">Something else here</a></li>
+								<li><a class="dropdown-item" href="{{ route('external.invest') }}">CMC Invest</a></li>
+								<li><a class="dropdown-item" href="{{ route('external.foundation') }}">CMC Foundation</a></li>
+								<li><a class="dropdown-item" href="{{ route('external.diasplat') }}">Diasplat</a></li>
+								<li><a class="dropdown-item" href="{{ route('external.onstora') }}">Onstora</a></li>
+								<li><a class="dropdown-item" href="{{ route('external.paymentgate') }}">Payment Gate</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
@@ -121,10 +122,10 @@
 								Company
 							</a>
 							<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#">Board of Directors</a></li>
+								<li><a class="dropdown-item" href="{{ route('company.directors') }}">Board of Directors</a></li>
 								<li><a class="dropdown-item" href="{{ route('company.advisor') }}">Technical Advisory</a></li>
-								<li><a class="dropdown-item" href="#">FAQs</a></li>
-								<li><a class="dropdown-item" href="#">Contact US</a></li>
+								<li><a class="dropdown-item" href="{{ route('company.faqs') }}">FAQs</a></li>
+								<li><a class="dropdown-item" href="{{ route('company.contact') }}">Contact US</a></li>
 							</ul>
 						</li>                                     
 					</ul>
