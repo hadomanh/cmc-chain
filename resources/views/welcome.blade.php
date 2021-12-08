@@ -10,7 +10,7 @@
 						<h1 class="sectionHeading">This is The Future Of Finance</h1>
 						<h2 class="sectionSubHeading">The convergence between decentralized and traditional financial models is accelerating and we are here to power it.</h2>
 						<div class="bannerLink">
-							<a href="#" class="btn btnWhite text-uppercase">white paper</a>
+							<a href="#" class="btn btnOutlineRed text-uppercase">white paper</a>
 							<a href="#" class="btn btnRed text-uppercase">smart contract</a>
 						</div>
 					</div>
