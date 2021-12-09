@@ -302,7 +302,7 @@
 				</div>
 			</div>
 			<div class="text-center">
-				<a href="" class="more">read more</a>
+				<a href="javascript:void(0)" class="more">read more</a>
 			</div>
 		</section>
 		

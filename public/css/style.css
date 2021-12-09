@@ -772,7 +772,8 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 }
 #blogPagination span {
 	border: 1px solid #e3007a;
-	padding: 10px
+	padding: 10px;
+	background-color: #ffffff;
 }
 
 /*========================== DOCUMENTATION PAGE ==========================*/

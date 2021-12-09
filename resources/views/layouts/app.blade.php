@@ -59,7 +59,7 @@
 				</ul>
 			</div>
 			<nav class="navbar navbar-expand-lg bg-light">
-				<a class="navbar-brand">
+				<a class="navbar-brand" href="{{ route('home') }}">
 					<img src="{{ asset('img/logo.png') }}" alt="">
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -234,19 +234,19 @@
 								<h6 class="title"><span>Social media</span></h6>
 								<div class="row">
 									<div class="col-md-4">
-										<a href="" class="item"><i class="fa fa-instagram"></i></a>
+										<a href="javascript:void(0)" class="item"><i class="fa fa-instagram"></i></a>
 									</div>
 									<div class="col-md-4">
-										<a href="" class="item"><i class="fa fa-facebook-f"></i></a>
+										<a href="javascript:void(0)" class="item"><i class="fa fa-facebook-f"></i></a>
 									</div>
 									<div class="col-md-4">
-										<a href="" class="item"><i class="fa fa-youtube"></i></a>
+										<a href="javascript:void(0)" class="item"><i class="fa fa-youtube"></i></a>
 									</div>
 									<div class="col-md-4">
-										<a href="" class="item"><i class="fa fa-linkedin"></i></a>
+										<a href="javascript:void(0)" class="item"><i class="fa fa-linkedin"></i></a>
 									</div>
 									<div class="col-md-4">
-										<a href="" class="item"><i class="fa fa-twitter"></i></a>
+										<a href="javascript:void(0)" class="item"><i class="fa fa-twitter"></i></a>
 									</div>
 								</div>
 							</div>
