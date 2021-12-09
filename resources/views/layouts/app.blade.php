@@ -78,7 +78,6 @@
 								<li><a class="dropdown-item" href="{{ route('technology.capabilities') }}">Layer-1 Capabilities</a></li>
 								<li><a class="dropdown-item" href="{{ route('technology.protocol') }}">Core Protocol</a></li>
 								<li><a class="dropdown-item" href="{{ route('technology.research') }}">Research</a></li>
-								<li><a class="dropdown-item" href="{{ route('technology.coin') }}">CMC Nativecoin</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
@@ -86,10 +85,10 @@
 								Ecosystem
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="{{ route('ecosystem.testnet')}}">Testnet</a></li>
-								<li><a class="dropdown-item" href="{{ route('ecosystem.mainnet')}}">Mainnet</a></li>
-								<li><a class="dropdown-item" href="{{ route('ecosystem.wallet')}}">CMC Wallets</a></li>
-								<li><a class="dropdown-item" href="{{ route('ecosystem.wowidex')}}">Wowidex</a></li>
+								<li><a class="dropdown-item" href="javascript:void(0)">Testnet</a></li>
+								<li><a class="dropdown-item" href="javascript:void(0)">Mainnet</a></li>
+								<li><a class="dropdown-item" href="javascript:void(0)">CMC Wallets</a></li>
+								<li><a class="dropdown-item" href="javascript:void(0)">Wowidex</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
@@ -97,11 +96,11 @@
 								External Resourcus
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="{{ route('external.invest') }}">CMC Invest</a></li>
-								<li><a class="dropdown-item" href="{{ route('external.foundation') }}">CMC Foundation</a></li>
-								<li><a class="dropdown-item" href="{{ route('external.diasplat') }}">Diasplat</a></li>
-								<li><a class="dropdown-item" href="{{ route('external.onstora') }}">Onstora</a></li>
-								<li><a class="dropdown-item" href="{{ route('external.paymentgate') }}">Payment Gate</a></li>
+								<li><a class="dropdown-item" href="javascript:void(0)">CMC Invest</a></li>
+								<li><a class="dropdown-item" href="javascript:void(0)">CMC Foundation</a></li>
+								<li><a class="dropdown-item" href="javascript:void(0)">Diasplat</a></li>
+								<li><a class="dropdown-item" href="javascript:void(0)">Onstora</a></li>
+								<li><a class="dropdown-item" href="javascript:void(0)">Payment Gate</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
@@ -122,6 +121,7 @@
 								Company
 							</a>
 							<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="{{ route('company.about') }}">About Us</a></li>
 								<li><a class="dropdown-item" href="{{ route('company.directors') }}">Board of Directors</a></li>
 								<li><a class="dropdown-item" href="{{ route('company.advisor') }}">Technical Advisory</a></li>
 								<li><a class="dropdown-item" href="{{ route('company.faqs') }}">FAQs</a></li>
@@ -173,40 +173,39 @@
 							<div class="col-md-6">
 								<h6 class="title"><span>Technology</span></h6>
 								<ul>
-									<li><a href="">Capabilities</a></li>
-									<li><a href="">Core Protocol</a></li>
-									<li><a href="">Research</a></li>
-									<li><a href="">CMC Nativecoin</a></li>
+									<li><a href="{{ route('technology.capabilities') }}">Layer-1 Capabilities</a></li>
+									<li><a href="{{ route('technology.protocol') }}">Core Protocol</a></li>
+									<li><a href="{{ route('technology.research') }}">Research</a></li>
 								</ul>
 							</div>
 							<div class="col-md-6">
 								<h6 class="title"><span>Ecosystem</span></h6>
 								<ul>
-									<li><a href="">Testnet</a></li>
-									<li><a href="">Mainnet</a></li>
-									<li><a href="">CMC Wallets</a></li>
-									<li><a href="">Wowidex</a></li>
+									<li><a href="javascript:void(0)">Testnet</a></li>
+									<li><a href="javascript:void(0)">Mainnet</a></li>
+									<li><a href="javascript:void(0)">CMC Wallets</a></li>
+									<li><a href="javascript:void(0)">Wowidex</a></li>
 								</ul>
 							</div>
 							<div class="col-md-6">
 								<h6 class="title"><span>External Resourcus</span></h6>
 								<ul>
-									<li><a href="">CMC invest</a></li>
-									<li><a href="">CMC foundation </a></li>
-									<li><a href="">Diasplat</a></li>
-									<li><a href="">Onstora</a></li>
-									<li><a href="">Payment Gate </a></li>
+									<li><a href="javascript:void(0)">CMC invest</a></li>
+									<li><a href="javascript:void(0)">CMC foundation </a></li>
+									<li><a href="javascript:void(0)">Diasplat</a></li>
+									<li><a href="javascript:void(0)">Onstora</a></li>
+									<li><a href="javascript:void(0)">Payment Gate </a></li>
 								</ul>
 							</div>
 							<div class="col-md-6">
 								<h6 class="title"><span>Resource</span></h6>
 								<ul>
-									<li><a href="">Community</a></li>
-									<li><a href="">Documentations</a></li>
-									<li><a href="">Brand Kit</a></li>
-									<li><a href="">Blog</a></li>
-									<li><a href="">White Paper</a></li>
-									<li><a href="">Smart contract</a></li>
+									<li><a href="{{ route('resource.community')}}">Community</a></li>
+									<li><a href="{{ route('resource.documentations')}}">Documentations</a></li>
+									<li><a href="{{ route('resource.brandkit')}}">Brand Kit</a></li>
+									<li><a href="{{ route('resource.blog')}}">Blog</a></li>
+									<li><a href="{{ route('resource.whitepaper')}}">White Paper</a></li>
+									<li><a href="{{ route('resource.smartcontract')}}">Smart contract</a></li>
 								</ul>
 							</div>
 						</div>
@@ -224,11 +223,11 @@
 							<div class="col-md-6 menuFooter">
 								<h6 class="title"><span>Compay</span></h6>
 								<ul>
-									<li><a href="">About Us</a></li>
-									<li><a href="">Board of Directors</a></li>
-									<li><a href="">Technical Advisory Board</a></li>
-									<li><a href="">FAQS</a></li>
-									<li><a href="">Contact us</a></li>
+									<li><a href="{{ route('company.about') }}">About Us</a></li>
+									<li><a href="{{ route('company.directors') }}">Board of Directors</a></li>
+									<li><a href="{{ route('company.advisor') }}">Technical Advisory Board</a></li>
+									<li><a href="{{ route('company.faqs') }}">FAQS</a></li>
+									<li><a href="{{ route('company.contact') }}">Contact us</a></li>
 								</ul>
 							</div>
 							<div class="col-md-6 social">

@@ -107,6 +107,10 @@ Route::prefix('external-resource')->group(function () {
 });
 
 Route::prefix('company')->group(function () {
+    Route::get('about-us', function () {
+        return view('company-about');
+    })->name('company.about');
+
     Route::get('board-of-directors', function () {
         return view('company-directors');
     })->name('company.directors');
