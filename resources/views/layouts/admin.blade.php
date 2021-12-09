@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link id="LinkIcon" href="" type="image/x-icon" rel="shortcut icon"/>
-  <link rel="icon" href="{{ asset('img/ftxf-icon.png') }}" type="image/ico"/>
+	<link rel="icon" href="{{ asset('img/favicon.png') }}" type="image/ico" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>FTXFUND Admin</title>
+  <title>CMCCHAIN Admin</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">

@@ -770,7 +770,7 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 #resourceBlogPage {
 	background-color: #E6E6E6E6;
 }
-#blogPagination span {
+#blogPagination a {
 	border: 1px solid #e3007a;
 	padding: 10px;
 	background-color: #ffffff;
