@@ -71,9 +71,7 @@ Route::prefix('resource')->group(function () {
         return view('resource-brand-kit');
     })->name('resource.brandkit');
 
-    Route::get('blog', function () {
-        return view('resource-blog');
-    })->name('resource.blog');
+    Route::get('blog', [NewsController::class, 'homeIndex'])->name('resource.blog');
 
     Route::get('white-paper', function () {
         return view('resource-white-paper');
@@ -107,6 +105,10 @@ Route::prefix('external-resource')->group(function () {
 });
 
 Route::prefix('company')->group(function () {
+    Route::get('about-us', function () {
+        return view('company-about');
+    })->name('company.about');
+
     Route::get('board-of-directors', function () {
         return view('company-directors');
     })->name('company.directors');

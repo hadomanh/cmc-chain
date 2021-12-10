@@ -26,6 +26,13 @@ class NewsController extends Controller
         return view('news.index')->with(compact('news'));
     }
 
+    public function homeIndex()
+    {
+        $news = $this->news->where('active', true)->paginate(9);
+        
+        return view('resource-blog')->with(compact('news'));
+    }
+
     /**
      * Show the form for creating a new resource.
      *
