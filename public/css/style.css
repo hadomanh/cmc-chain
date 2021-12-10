@@ -32,6 +32,10 @@ a {
 h1,h2,h3,h4,h5,h6 {
 	font-family: gothamMedium;
 }
+.form-control:focus {
+	box-shadow: none;
+	outline: none;
+}
 .fw-bold {
 	font-family: gothamBold;
 }
@@ -691,9 +695,6 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	border-radius: 50%;
 }
 /*========================== WALLET PAGE ==========================*/
-#walletPage {
-
-}
 #walletPage .banner {
 	color: #fff;
     padding: 150px 50px 50px;
@@ -756,56 +757,136 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	border-radius: 50%;
 	padding: 10px;
 	margin-right: 10px;
-	vertical-align: middle;
+	vertical-align: middle;	
 }
 #walletPage .import .item .icon img {
 	width: 25px;
 }
-/*========================== CORE PROTOCOL PAGE ==========================*/
-#coreProtocolPage {
-
+/*========================== COMMUNITY PAGE ==========================*/
+#comPage .listCommunity {
+	padding: 0 120px;
+	margin: -75px 0 30px;
 }
-
-/*========================== BLOG PAGE ==========================*/
-#resourceBlogPage {
-	background-color: #E6E6E6E6;
+#comPage .listCommunity .item {
+	border: 1px solid #c2c2c2;
+	background: #fff;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 10px;
 }
-#blogPagination span {
-	border: 1px solid #e3007a;
-	padding: 10px
-}
-
-/*========================== DOCUMENTATION PAGE ==========================*/
-#resourceDocumentationPage #documentationHeader {
-	background-color: #E6E6E6E6;
-}
-
-#documentationHeader h1 {
-	padding-top: 15px;
-	margin-bottom: -5px;
-}
-
-#documentationHeader p {
-	padding-top: 35px;
-}
-
-#documentationHeader hr {
-	border-top: 2px solid #e3007a;
-	color: #e3007a;
+#comPage .listCommunity .item .icon {
+	color: #fff;
+	background: #0399b5;
+	font-size: 25px;
+	margin-right: 15px;
+	border-radius: 50%;
 	width: 50px;
-	margin: auto;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 0 0 auto;
 }
-
-#documentationContent div {
-	-webkit-column-count: 2;
-      -moz-column-count: 2;
-           column-count: 2;
-
-   -webkit-column-gap: 20px;
-      -moz-column-gap: 20px;
-           column-gap: 20px;
+#comPage .listCommunity .item .name {
+	margin-bottom: 5px;
 }
-
+#comPage .event {
+	padding-top: 200px;
+	color: #fff;
+	background: url(../img/bg-meeting.jpg) no-repeat center center / cover;
+}
+/*========================== DOCUMENTATION PAGE ==========================*/
+#docsPage .item {
+	border: 1px solid #c2c2c2;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+}
+/*========================== BLOG PAGE ==========================*/
+#blogPage .item {
+	margin-bottom: 25px;
+}
+/*========================== BOARD OF DIRECTORS ==========================*/
+#leaderBoard .item {
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+}
+#leaderBoard .info > * {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	color: #23253a;
+}
+#leaderBoard .thumbWrap {
+	width: 240px;
+	height: 240px;
+	margin: 0 auto 20px;
+}
+#leaderBoard .thumbWrap.circle {	
+	border-radius: 50%;
+	padding: 10px;
+	background: url(../img/metal-circle.png) no-repeat center center / cover;
+}
+#leaderBoard .thumbWrap .inner {
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#leaderBoard .thumbWrap .inner img {
+	max-width: initial;
+}
+/*========================== FAQ PAGE ==========================*/
+#faqPage .disclaimer {
+	border: 1px solid #c2c2c2;
+	border-radius: 5px;
+	background: #e6e6e6;
+	padding: 20px;
+}
+#faqPage .accordion {
+	margin-top: 30px;
+} 
+#faqPage .title {
+	color: #0399b5;
+	margin-bottom: 15px;
+}
+#faqPage .accordion-button {
+	padding: 10px 0;
+	box-shadow: none;
+	color: #e3007a;
+	font-size: 14px;
+	background: none;
+}
+#faqPage .accordion-button::after {
+	background-size: 12px; 
+	background-position: center center;
+}
+#faqPage .accordion-body {
+	padding: 0;
+}
+#faqPage .item {
+	margin-bottom: 30px;
+}
+#faqPage .otherQuestion {
+	margin-top: 50px;
+	text-align: center;
+}
+/*========================== CONTACT PAGE ==========================*/
+#contactPage form {
+	margin-top: 30px;
+}
+#contactPage input,
+#contactPage textarea,
+#contactPage select {
+	font-size: 14px;
+}
+#contactPage textarea {
+	height: 150px;
+}
 /*========================== FOOTER ==========================*/
 footer {
 	background: #23253a;

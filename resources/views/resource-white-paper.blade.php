@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Comming soon</h1>
+    <section class="text-center">
+    	<h1>Updating...</h1>
+    </section>
 @endsection
 
 @push('script')
