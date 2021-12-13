@@ -180,6 +180,14 @@ section .sectionSubHeading {
 .btnGrad .fas {
 	margin: 0 10px;
 }
+.progress {
+	background: #8a8a8a;
+	height: 10px;
+}
+.progress,
+.progress .progress-bar {
+	border-radius: 20px;
+}
 ul.style-1 {
 	margin-left: -15px;
 }
@@ -226,6 +234,9 @@ table.v-align-middle th {
 }
 .bgGrey {
 	background: #f3f3f3;
+}
+.bgGradPurple {
+	background: linear-gradient(90deg, #3d107b 0%, #6b0876 51%, #920071 100%);
 }
 .bgGradBlue {
 	color: #fff;
@@ -453,44 +464,117 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	text-align: left;
 }
 /*========== HOSTED PROJECT ==========*/
-.hostedProjects .sectionHeading a {
-	color: #636363;
-}
-.hostedProjects .sectionHeading a span {
-	color: #0399b5;
-}
-.hostedProjects .listProjects {
-	margin-bottom: 50px;
-}
-.hostedProjects .total {
-	background: #fff;
-	border-radius: 5px;
-	padding: 10px;
-	margin-bottom: 15px;
-}
 .hostedProjects .item {
 	background: #fff;
-	border: 3px solid #0399b5;
-	border-radius: 5px;
-	padding: 0 10px;
-	font-family: gothamMedium;
 }
-.hostedProjects .item a {
-	display: block;
-	color: #636363;
+.hostedProjects .thumb {
+	position: relative;
 }
-.hostedProjects .item img {
+.hostedProjects .thumb:before {
+	content: "";
+	position: absolute;
 	width: 100%;
-	margin: 20px 0;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url(../img/bg-digit-number.png) center center / cover;
 }
-.hostedProjects .item .info {
-	border-top: 2px solid #ccc;
+.hostedProjects .thumb .time {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-family: gothamBold;
+	text-transform: uppercase;
+	font-size: 18px;
 	padding: 10px;
-	font-size: 10px;
-	margin: 0 -10px;
+	background: rgba(0,0,0,.7);
 }
-.hostedProjects .item i {
+.hostedProjects .assetCall {
+	text-align: center;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 18px;
+	position: relative;
+	height: 70px;
+	border-top: 6px solid #cacaca;
+}
+.hostedProjects .assetCall:before {
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 30px;
+	left: 50%;
+	top: -20px;
+	transform: translateX(-50%);
+	background: url(../img/ribbon-yellow.png) no-repeat center center / contain;
+}
+.hostedProjects .assetOverview {
+	border: 1px solid #bcbec0;
+}
+.hostedProjects .assetName {
+	color: #92278f;
+	text-transform: uppercase;
+	font-family: gothamBold;
+	text-align: center;
+	padding: 5px;
+}
+.hostedProjects .assetStatus {
+	color: #3d107b;
+	padding: 6px;
+	text-transform: uppercase;
+	font-family: gothamBold;
+	font-size: 18px;
+	text-align: center;
+	border: 1px solid #bcbec0;
+	margin: 0 -1px;
+	background: #f5f5f5;
+}
+.hostedProjects .assetInfo {
+	padding: 10px 20px;
+}
+.hostedProjects .icon {
+	width: 25px;
 	margin-right: 3px;
+}
+.hostedProjects .value {
+	color: #3d107b;
+}
+.hostedProjects .investor .value,
+.hostedProjects .address i {
+	color: #92278f;
+}
+.hostedProjects .address {
+	color: #464646;
+}
+.hostedProjects .projectFinished .thumb:after {
+	content: "";
+	position: absolute;
+	width: 70px;
+	height: 100%;
+	top: 0;
+	right: 10px;
+	background: url(../img/badge.png) no-repeat center top 10px / contain;	
+}
+.hostedProjects .projectFinished .assetCall:before {
+	background: url(../img/ribbon-pink.png) no-repeat center center / contain;
+}
+.hostedProjects .projectFinished .assetCall {
+	border-top: 6px solid #bf3ef7;
+}
+.hostedProjects .projectCalling .assetCall:before {
+	background: url(../img/ribbon-yellow.png) no-repeat center center / contain;
+}
+.hostedProjects .projectCalling .assetCall {
+	border-top: 6px solid #f5c73b;
+}
+.hostedProjects .projectComing .assetCall {
+	background: #666;
+}
+.hostedProjects .projectComing .assetCall,
+.hostedProjects .projectComing .assetOverview {
+	filter: grayscale(1);
 }
 /*========== INVESTORS ==========*/
 .investors {
