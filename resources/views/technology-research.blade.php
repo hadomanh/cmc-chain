@@ -1,166 +1,137 @@
 @extends('layouts.app')
 
 @section('content')
-<img src="{{ asset('img/banner-squares.jpg') }}">
-<div class="container pdcontainer">
-    <div class="text-center">
-        <h2 class="andtext">RESEARCH AND INNOVATION</h2>
-        <div class="row research">
-            <div class="col research-tab research-tab-active" data-id="firstTab">CMC CHAIN INNOVATION</div>
-            <div class="col research-tab" data-id="secondTab">TEAM'S RESEARCH PAPERS</div>
+<div id="researchPage">
+    <section class="p-0">
+        <img src="{{ asset('img/banner-research.jpg') }}" class="w-100">
+    </section>
+    <section>
+        <div class="container">
+            <h2 class="sectionHeading underline text-uppercase">RESEARCH AND INNOVATION</h2>
+            <ul class="row g-0 nav nav-tabs">
+                <li class="nav-item col-md-6" role="presentation">
+                    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#innovation-tab" type="button" role="tab" aria-controls="innovation-tab" aria-selected="true">CMCCHAIN Innovation</button>
+                </li>
+                <li class="nav-item col-md-6" role="presentation">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#research-tab" type="button" role="tab" aria-controls="research-tab" aria-selected="false">Team's Research Papers</button>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="innovation-tab" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="#" class="item">
+                                <p><img src="{{ asset('img/img-1.jpg') }}" class="w-100"></p>
+                                <h6>CMC CHAIN 2021 Performance</h6>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="item">
+                                <p><img src="{{ asset('img/img-1.jpg') }}" class="w-100"></p>
+                                <h6>A Proposal for Decentralizing CMCchain Governance</h6>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="item">
+                                <p><img src="{{ asset('img/img-1.jpg') }}" class="w-100"></p>
+                                <h6>CMCchain's Approach to the Right to Be Forgotten</h6>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="item">
+                                <p><img src="{{ asset('img/img-1.jpg') }}" class="w-100"></p>
+                                <h6>CMC CHAIN 2021 Performance</h6>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="item">
+                                <p><img src="{{ asset('img/img-1.jpg') }}" class="w-100"></p>
+                                <h6>A Proposal for Decentralizing CMCchain Governance</h6>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="item">
+                                <p><img src="{{ asset('img/img-1.jpg') }}" class="w-100"></p>
+                                <h6>CMCchain's Approach to the Right to Be Forgotten</h6>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="item">
+                                <p><img src="{{ asset('img/img-1.jpg') }}" class="w-100"></p>
+                                <h6>CMC CHAIN 2021 Performance</h6>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="item">
+                                <p><img src="{{ asset('img/img-1.jpg') }}" class="w-100"></p>
+                                <h6>A Proposal for Decentralizing CMCchain Governance</h6>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="item">
+                                <p><img src="{{ asset('img/img-1.jpg') }}" class="w-100"></p>
+                                <h6>CMCchain's Approach to the Right to Be Forgotten</h6>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="item">
+                                <p><img src="{{ asset('img/img-1.jpg') }}" class="w-100"></p>
+                                <h6>CMC CHAIN 2021 Performance</h6>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="item">
+                                <p><img src="{{ asset('img/img-1.jpg') }}" class="w-100"></p>
+                                <h6>A Proposal for Decentralizing CMCchain Governance</h6>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="item">
+                                <p><img src="{{ asset('img/img-1.jpg') }}" class="w-100"></p>
+                                <h6>CMCchain's Approach to the Right to Be Forgotten</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="research-tab" role="tabpanel" aria-labelledby="research-tab">
+                    <div class="item">
+                        <h6 class="title text-uppercase">Journals and Peer-reviewed Conferences</h6>
+                        <div>CMCchain: A secure and efficient distributed ledger</div>
+                        <div class="mb-3">By <a href="#" class="textPink">J. Chen and S. Micali</a></div>
+                        <div>Theoretical Computer Science, 777:155-183, 2019</div>
+                        <div><a href="#" class="textPink">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</a></div>
+                    </div>
+                    <div class="item">
+                        <h6 class="title text-uppercase">Journals and Peer-reviewed Conferences</h6>
+                        <div>CMCchain: A secure and efficient distributed ledger</div>
+                        <div class="mb-3">By <a href="#" class="textPink">J. Chen and S. Micali</a></div>
+                        <div>Theoretical Computer Science, 777:155-183, 2019</div>
+                        <div><a href="#" class="textPink">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</a></div>
+                    </div>
+                    <div class="item">
+                        <h6 class="title text-uppercase">Journals and Peer-reviewed Conferences</h6>
+                        <div>CMCchain: A secure and efficient distributed ledger</div>
+                        <div class="mb-3">By <a href="#" class="textPink">J. Chen and S. Micali</a></div>
+                        <div>Theoretical Computer Science, 777:155-183, 2019</div>
+                        <div><a href="#" class="textPink">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</a></div>
+                    </div>
+                    <div class="item">
+                        <h6 class="title text-uppercase">Journals and Peer-reviewed Conferences</h6>
+                        <div>CMCchain: A secure and efficient distributed ledger</div>
+                        <div class="mb-3">By <a href="#" class="textPink">J. Chen and S. Micali</a></div>
+                        <div>Theoretical Computer Science, 777:155-183, 2019</div>
+                        <div><a href="#" class="textPink">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</a></div>
+                    </div>
+                    <div class="item">
+                        <h6 class="title text-uppercase">Journals and Peer-reviewed Conferences</h6>
+                        <div>CMCchain: A secure and efficient distributed ledger</div>
+                        <div class="mb-3">By <a href="#" class="textPink">J. Chen and S. Micali</a></div>
+                        <div>Theoretical Computer Science, 777:155-183, 2019</div>
+                        <div><a href="#" class="textPink">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</a></div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <div class="research-content row colorbl" id="firstTab">
-        <div class="col">
-            <img src="{{ asset('img/Untitled-6.jpg') }}">
-            <p class="mbtagp">CMC CHAIN 2021 Performance</p>
-            <img src="{{ asset('img/Untitled-9.jpg') }}">
-            <p class="mbtagp">CMC CHAIN 2021 Performance</p>
-            <img src="{{ asset('img/Untitled-11.jpg') }}">
-            <p class="mbtagp">CMC CHAIN 2021 Performance</p>
-            <img src="{{ asset('img/Untitled-14.jpg') }}">
-            <p class="mbtagp">CMC CHAIN 2021 Performance</p>
-            <img src="{{ asset('img/Untitled-17.jpg') }}">
-            <p class="mbtagp">CMC CHAIN 2021 Performance</p>
-            <img src="{{ asset('img/Untitled-6.jpg') }}">
-            <p class="mbtagp">CMC CHAIN 2021 Performance</p>
-            <img src="{{ asset('img/Untitled-9.jpg') }}">
-            <p class="mbtagp">CMC CHAIN 2021 Performance</p>
-            <img src="{{ asset('img/Untitled-11.jpg') }}">
-            <p class="mbtagp">CMC CHAIN 2021 Performance</p>
-            <img src="{{ asset('img/Untitled-14.jpg') }}">
-            <p class="mbtagp">CMC CHAIN 2021 Performance</p>
-            <img src="{{ asset('img/Untitled-17.jpg') }}">
-            <p class="mbtagp">CMC CHAIN 2021 Performance</p>
-        </div>
-        <div class="col">
-            <img src="{{ asset('img/Untitled-7.jpg') }}">
-            <p class="text">A Proposal for Decentralizing CMC CHAIN Governance</p>
-            <img src="{{ asset('img/Untitled-9.jpg') }}">
-            <p class="text">A Proposal for Decentralizing CMC CHAIN Governance</p>
-            <img src="{{ asset('img/Untitled-12.jpg') }}">
-            <p class="text">A Proposal for Decentralizing CMC CHAIN Governance</p>
-            <img src="{{ asset('img/Untitled-15.jpg') }}">
-            <p class="text">A Proposal for Decentralizing CMC CHAIN Governance</p>
-            <img src="{{ asset('img/Untitled-18.jpg') }}">
-            <p class="text">A Proposal for Decentralizing CMC CHAIN Governance</p>
-            <img src="{{ asset('img/Untitled-7.jpg') }}">
-            <p class="text">A Proposal for Decentralizing CMC CHAIN Governance</p>
-            <img src="{{ asset('img/Untitled-9.jpg') }}">
-            <p class="text">A Proposal for Decentralizing CMC CHAIN Governance</p>
-            <img src="{{ asset('img/Untitled-10.jpg') }}">
-            <p class="text">A Proposal for Decentralizing CMC CHAIN Governance</p>
-            <img src="{{ asset('img/Untitled-15.jpg') }}">
-            <p class="text">A Proposal for Decentralizing CMC CHAIN Governance</p>
-            <img src="{{ asset('img/Untitled-18.jpg') }}">
-            <p class="text">A Proposal for Decentralizing CMC CHAIN Governance</p>
-        </div>
-        <div class="col">
-            <img src="{{ asset('img/Untitled-8.jpg') }}">
-            <p class="text">CMC CHAIN's Approach to the right to be Forgotten</p>
-            <img src="{{ asset('img/Untitled-10.jpg') }}">
-            <p class="text">CMC CHAIN's Approach to the right to be Forgotten</p>
-            <img src="{{ asset('img/Untitled-13.jpg') }}">
-            <p class="text">CMC CHAIN's Approach to the right to be Forgotten</p>
-            <img src="{{ asset('img/Untitled-16.jpg') }}">
-            <p class="text">CMC CHAIN's Approach to the right to be Forgotten</p>
-            <img src="{{ asset('img/Untitled-19.jpg') }}">
-            <p class="text">CMC CHAIN's Approach to the right to be Forgotten</p>
-            <img src="{{ asset('img/Untitled-8.jpg') }}">
-            <p class="text">CMC CHAIN's Approach to the right to be Forgotten</p>
-            <img src="{{ asset('img/Untitled-10.jpg') }}">
-            <p class="text">CMC CHAIN's Approach to the right to be Forgotten</p>
-            <img src="{{ asset('img/Untitled-13.jpg') }}">
-            <p class="text">CMC CHAIN's Approach to the right to be Forgotten</p>
-            <img src="{{ asset('img/Untitled-16.jpg') }}">
-            <p class="text">CMC CHAIN's Approach to the right to be Forgotten</p>
-            <img src="{{ asset('img/Untitled-19.jpg') }}">
-            <p class="text">CMC CHAIN's Approach to the right to be Forgotten</p>
-        </div>
-    </div>
-
-    <div class="research-content topbottom d-none" id="secondTab">
-        <p class="journals">JOURNALS AND PEER-REVIEWED CONFERENCES</p>
-        <strong class="colorbl">CMC CHAIN: A secure and efficient distributed ledger</strong>
-        <p>By <span class="colorpink">J. Chen and S. Micali</span></p>
-        <p>Theoretical Computer Science, 777:155-183, 2019</p>
-        <p class="linkcmc">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</p>
-        <p class="journals">JOURNALS AND PEER-REVIEWED CONFERENCES</p>
-        <strong class="colorbl">CMC CHAIN: A secure and efficient distributed ledger</strong>
-        <p>By <span class="colorpink">J. Chen and S. Micali</span></p>
-        <p>Theoretical Computer Science, 777:155-183, 2019</p>
-        <p class="linkcmc">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</p>
-        <p class="journals">JOURNALS AND PEER-REVIEWED CONFERENCES</p>
-        <strong class="colorbl">CMC CHAIN: A secure and efficient distributed ledger</strong>
-        <p>By <span class="colorpink">J. Chen and S. Micali</span></p>
-        <p>Theoretical Computer Science, 777:155-183, 2019</p>
-        <p class="linkcmc">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</p>
-        <p class="journals">JOURNALS AND PEER-REVIEWED CONFERENCES</p>
-        <strong class="colorbl">CMC CHAIN: A secure and efficient distributed ledger</strong>
-        <p>By <span class="colorpink">J. Chen and S. Micali</span></p>
-        <p>Theoretical Computer Science, 777:155-183, 2019</p>
-        <p class="linkcmc">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</p>
-        <p class="journals">JOURNALS AND PEER-REVIEWED CONFERENCES</p>
-        <strong class="colorbl">CMC CHAIN: A secure and efficient distributed ledger</strong>
-        <p>By <span class="colorpink">J. Chen and S. Micali</span></p>
-        <p>Theoretical Computer Science, 777:155-183, 2019</p>
-        <p class="linkcmc">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</p>
-        <p class="journals">JOURNALS AND PEER-REVIEWED CONFERENCES</p>
-        <strong class="colorbl">CMC CHAIN: A secure and efficient distributed ledger</strong>
-        <p>By <span class="colorpink">J. Chen and S. Micali</span></p>
-        <p>Theoretical Computer Science, 777:155-183, 2019</p>
-        <p class="linkcmc">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</p>
-        <p class="journals">JOURNALS AND PEER-REVIEWED CONFERENCES</p>
-        <strong class="colorbl">CMC CHAIN: A secure and efficient distributed ledger</strong>
-        <p>By <span class="colorpink">J. Chen and S. Micali</span></p>
-        <p>Theoretical Computer Science, 777:155-183, 2019</p>
-        <p class="linkcmc">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</p>
-        <p class="journals">JOURNALS AND PEER-REVIEWED CONFERENCES</p>
-        <strong class="colorbl">CMC CHAIN: A secure and efficient distributed ledger</strong>
-        <p>By <span class="colorpink">J. Chen and S. Micali</span></p>
-        <p>Theoretical Computer Science, 777:155-183, 2019</p>
-        <p class="linkcmc">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</p>
-        <p class="journals">JOURNALS AND PEER-REVIEWED CONFERENCES</p>
-        <strong class="colorbl">CMC CHAIN: A secure and efficient distributed ledger</strong>
-        <p>By <span class="colorpink">J. Chen and S. Micali</span></p>
-        <p>Theoretical Computer Science, 777:155-183, 2019</p>
-        <p class="linkcmc">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</p>
-        <p class="journals">JOURNALS AND PEER-REVIEWED CONFERENCES</p>
-        <strong class="colorbl">CMC CHAIN: A secure and efficient distributed ledger</strong>
-        <p>By <span class="colorpink">J. Chen and S. Micali</span></p>
-        <p>Theoretical Computer Science, 777:155-183, 2019</p>
-        <p class="linkcmc">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</p>
-        <p class="journals">JOURNALS AND PEER-REVIEWED CONFERENCES</p>
-        <strong class="colorbl">CMC CHAIN: A secure and efficient distributed ledger</strong>
-        <p>By <span class="colorpink">J. Chen and S. Micali</span></p>
-        <p>Theoretical Computer Science, 777:155-183, 2019</p>
-        <p class="linkcmc">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</p>
-        <p class="journals">JOURNALS AND PEER-REVIEWED CONFERENCES</p>
-        <strong class="colorbl">CMC CHAIN: A secure and efficient distributed ledger</strong>
-        <p>By <span class="colorpink">J. Chen and S. Micali</span></p>
-        <p>Theoretical Computer Science, 777:155-183, 2019</p>
-        <p class="linkcmc">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</p>
-        <p class="journals">JOURNALS AND PEER-REVIEWED CONFERENCES</p>
-        <strong class="colorbl">CMC CHAIN: A secure and efficient distributed ledger</strong>
-        <p>By <span class="colorpink">J. Chen and S. Micali</span></p>
-        <p>Theoretical Computer Science, 777:155-183, 2019</p>
-        <p class="linkcmc">https://www.cmcchain.io/cmcchain/article/pii/S030439751930091X</p>
-    </div>
-
+    </section>
 </div>
 @endsection
-
-@push('script')
-<script>
-    $('.research-tab').each(function(index, element) {
-        $(element).click(function(){
-            $('.research-tab').removeClass('research-tab-active');
-            $('.research-content').addClass('d-none');
-
-            $(this).addClass('research-tab-active');
-            $('#' + $(this).data('id')).removeClass('d-none');
-        })
-    })
-</script>
-@endpush

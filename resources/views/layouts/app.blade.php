@@ -261,10 +261,15 @@
 		<script type="text/javascript" src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 		<script type="text/javascript" src="{{ asset('js/owl.carousel.min.js') }}"></script>
 		<script>
-			$('.owl-carousel').owlCarousel({
+			$('.pressRelease .list').owlCarousel({
 				items: 10,
 			   	loop: true,
 			    margin: 10,
+			});
+			$('.founderInfo-carousel').owlCarousel({
+				items: 3,
+			   	loop: true,
+			   	nav: true,
 			})
 		</script>	
         @stack('script')

@@ -278,7 +278,7 @@
 			<div class="container">
 				<h2 class="sectionHeading">Press Release</h2>
 			</div>
-			<div class="owl-carousel owl-theme">
+			<div class="owl-carousel owl-theme list">
 				<div class="item">
 					<img src="{{ asset('img/project-logo-1.png') }}" alt="">
 				</div>
