@@ -9,7 +9,7 @@
         <div class="container">
             <h2 class="sectionHeading">Technical Advisory Board</h2>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="item">
                         <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                             <span class="thumbWrap">
@@ -20,7 +20,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="item">
                         <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                             <span class="thumbWrap">
@@ -31,7 +31,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="item">
                         <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                             <span class="thumbWrap">
@@ -42,7 +42,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="item">
                         <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                             <span class="thumbWrap">
@@ -53,7 +53,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="item">
                         <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                             <span class="thumbWrap">
@@ -64,7 +64,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="item">
                         <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                             <span class="thumbWrap">
@@ -75,7 +75,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="item">
                         <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                             <span class="thumbWrap">
@@ -86,7 +86,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="item">
                         <a href="#" class="info" data-bs-toggle="modal" data-bs-target="#leaderInfo">
                             <span class="thumbWrap">
@@ -107,14 +107,14 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-auto">
+                        <div class="col-lg-auto col-12">
                             <div class="info">
                                 <span class="thumbWrap">
                                     <img src="{{ asset('img/avtnd-2.jpg') }}">
                                 </span>
                             </div>
                         </div>
-                        <div class="col">                               
+                        <div class="col-lg col-12">                               
                             <h6>AT&T</h6>
                             <h5 class="mb-4">Andre Fuetsch</h5>
                             <p>Melissa E. Evers is vice president in the Intel Architecture, Graphics, and Software group and general manager of Software Business Strategy at Intel Corporation. Her responsibilities span guiding the strategy and defining software strategies across Intel collaborating with teams and business units. Her team builds tools, insights, systems and processes to ensure our software initiatives drive maximum impact to Intel’s business. Based in Portland, Oregon, Evers leads Intel’s open source software coordination, strategy and engagement in our associated communities. Outside of Intel, she is a member of the Linux Foundation board and serves as governing board chair of LF Edge, an umbrella project within the Linux Foundation.</p>

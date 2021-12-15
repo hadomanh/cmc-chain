@@ -9,7 +9,7 @@
 	    	<div class="container">
 	    		<h2 class="sectionHeading">CMC Chain FAQ</h2>
 	    		<div class="row">
-	    			<div class="col-md-6">
+	    			<div class="col-lg-6 col-md-12">
 	    				<div class="disclaimer">
 	    					<h5>Disclaimer</h5>
 	    					<div>CMCchain is a work in progress. The following FAQs will continue to be updated as the CMCchain platform evolves. The exact structures and technologies to be included at genesis are not finalized and are liable to change with continued research.</div>

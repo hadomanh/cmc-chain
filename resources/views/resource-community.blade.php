@@ -17,7 +17,7 @@
     		<div class="container">
     			<div class="listCommunity">
 	    			<div class="row">
-	    				<div class="col-md-4">
+	    				<div class="col-lg-4 col-md-6">
 	    					<div class="item d-flex align-items-center">
 	    						<div class="icon"><i class="fab fa-twitter"></i></div>
 	    						<div>
@@ -26,7 +26,7 @@
 	    						</div>
 	    					</div>
 	    				</div>
-	    				<div class="col-md-4">
+	    				<div class="col-lg-4 col-md-6">
 	    					<div class="item d-flex align-items-center">
 	    						<div class="icon"><i class="far fa-envelope"></i></div>
 	    						<div>
@@ -35,7 +35,7 @@
 	    						</div>
 	    					</div>
 	    				</div>
-	    				<div class="col-md-4">
+	    				<div class="col-lg-4 col-md-6">
 	    					<div class="item d-flex align-items-center">
 	    						<div class="icon"><i class="fab fa-reddit-alien"></i></div>
 	    						<div>
@@ -44,7 +44,7 @@
 	    						</div>
 	    					</div>
 	    				</div>
-	    				<div class="col-md-4">
+	    				<div class="col-lg-4 col-md-6">
 	    					<div class="item d-flex align-items-center">
 	    						<div class="icon"><i class="fab fa-discord"></i></div>
 	    						<div>
@@ -53,7 +53,7 @@
 	    						</div>
 	    					</div>
 	    				</div>
-	    				<div class="col-md-4">
+	    				<div class="col-lg-4 col-md-6">
 	    					<div class="item d-flex align-items-center">
 	    						<div class="icon"><i class="fab fa-github"></i></div>
 	    						<div>
@@ -62,7 +62,7 @@
 	    						</div>
 	    					</div>
 	    				</div>
-	    				<div class="col-md-4">
+	    				<div class="col-lg-4 col-md-6">
 	    					<div class="item d-flex align-items-center">
 	    						<div class="icon"><i class="far fa-life-ring"></i></div>
 	    						<div>
@@ -71,7 +71,7 @@
 	    						</div>
 	    					</div>
 	    				</div>
-	    				<div class="col-md-4">
+	    				<div class="col-lg-4 col-md-6">
 	    					<div class="item d-flex align-items-center">
 	    						<div class="icon"><i class="far fa-file-alt"></i></div>
 	    						<div>
@@ -80,7 +80,7 @@
 	    						</div>
 	    					</div>
 	    				</div>
-	    				<div class="col-md-4">
+	    				<div class="col-lg-4 col-md-6">
 	    					<div class="item d-flex align-items-center">
 	    						<div class="icon"><i class="fab fa-youtube"></i></div>
 	    						<div>
@@ -89,7 +89,7 @@
 	    						</div>
 	    					</div>
 	    				</div>
-	    				<div class="col-md-4">
+	    				<div class="col-lg-4 col-md-6">
 	    					<div class="item d-flex align-items-center">
 	    						<div class="icon"><i class="fab fa-facebook"></i></div>
 	    						<div>
@@ -161,7 +161,7 @@
     						<li>Monitoring (e.g. explorers)</li>
     						<li>Protocol integrations (e.g. bridges to other blockchains, distributed file storage)</li>
     					</ul>
-    					<a href="#" class="btn btnOutlineRed sm">See Grants and Bounties <span class="ms-2">⟶</span></a>
+    					<p><a href="#" class="btn btnOutlineRed sm">See Grants and Bounties <span class="ms-2">⟶</span></a></p>
     				</div>
     				<div class="col-md-6">
     					<h2 class="sectionHeading text-uppercase">Become a CMCCHAIN Ambassador</h2>

@@ -310,6 +310,7 @@ table.v-align-middle th {
 	font-family: gothamBold;
 	text-transform: uppercase;
 	padding: 25px 10px;
+	height: 100%;
 }
 .nav-tabs .nav-item .nav-link.active {
 	background: #f3f3f3;
@@ -446,6 +447,9 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	margin-bottom: 50px;
 }
 /*========== WHAT IS CMC ==========*/
+.whatIsCmc {
+	padding: 50px;
+}
 .whatIsCmc .listAbility {
 	text-align: center;
 	margin-top: 50px;
@@ -625,8 +629,9 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	text-transform: uppercase;
 	text-align: center;
 	background: #e6e6e6;
-	padding: 10px;
+	padding: 10px 5px;
 	margin: 0;
+	font-size: 14px;
 	border-bottom: 1px solid #c2c2c2;
 }
 #techLayerPage .assets .sampleAssets ul {
@@ -646,6 +651,10 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	border-top: 5px solid transparent;
 	border-left: 5px solid red;
 	border-bottom: 5px solid transparent;
+}
+/*========================== CORE PROTOCOL PAGE ==========================*/
+#coreProtocolPage .text {
+	margin-bottom: 40px;
 }
 /*========================== TESTNET PAGE ==========================*/
 #testnetPage .advantage .item {
@@ -885,6 +894,7 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	background: #fff;
 	padding: 20px;
 	border-radius: 5px;
+	height: 100%;
 }
 /*========================== BLOG PAGE ==========================*/
 #blogPage .item {
@@ -1151,10 +1161,148 @@ footer .copyright {
 	
 }
 @media (max-width: 992px) {
-	
+	header .navbar-toggler:focus {
+		box-shadow: none;
+	}
+	header .navbar .dropdown-toggle:after {
+		transform: none;
+		left: auto;
+		right: 10px;
+		bottom: auto;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	header .navbar-collapse {
+		padding-top: 20px;
+	}
+	header .navbar.navbar-expand-lg .nav-link {
+		padding: 8px 10px;
+	}
+	.nav-tabs .nav-item .nav-link {
+		padding: 10px;
+	}
+	/* Home page */
+	.banner,
+	.welcome {
+		padding-top: 40px;
+	}
+	.welcome .welcomeText {
+		padding: 0;
+	}
+	.whatIsCmc {
+		padding: 50px 30px;
+	}
+	.whatIsCmc .listAbility > div,
+	.hostedProjects .item {
+		margin-bottom: 20px;
+	}
+	.hostedProjects {
+		padding-top: 50px;
+	}
+	/* Tech layer page */ 
+	#techLayerPage .assets .sampleAssets .title {
+		min-height: 55px;
+	}
+	/* core protocol page */ 
+	#coreProtocolPage .text {
+		margin-bottom: 20px;
+	}
+	#coreProtocolPage .security .row {
+		margin-bottom: 20px;
+	}
+	/* research page */ 
+	#researchPage #research-tab {
+		overflow-wrap: break-word;
+	}
+	/* community page */ 
+	#comPage .listCommunity {
+		padding: 0;
+		margin-top: 0;
+	}
+	/* about page */ 
+	#aboutPage .established .text {
+		font-size: 20px;
+		padding: 10px;
+	}
+	#aboutPage .founderInfo {
+		margin-top: 20px;
+	}
 }
 @media (max-width: 768px) {
-	
+	header .top {
+		padding: 10px;
+	}
+	header .top .link a {
+		padding: 5px 10px;
+		margin: 0;
+	}
+	header .top .search {
+		padding: 0 10px;
+		margin: 0 10px;
+	}
+	header .top .search i {
+		width: 25px;
+		height: 25px;
+		font-size: 14px;
+	}
+	header .top .language .btn {
+		font-size: 14px;
+	}
+	header .top .language .btn i {
+		font-size: 20px;
+	}
+	header .navbar {
+		padding: 0 10px;
+	}	
+	section, .banner, .welcome {
+		padding: 20px 0;
+	}
+	section .sectionHeading {
+		font-size: 22px;
+	}
+	section .sectionSubHeading {
+		font-size: 18px;
+	}
+	/* Home page */
+	.banner .bannerLink {
+		margin-top: 30px;
+	}
+	.banner .bannerLink a {
+	    padding: 8px 15px;
+	    font-size: 14px;
+	}
+	.banner .bannerLink a + a {
+		margin-left: 10px;
+	}
+	.whatIsCmc {
+		padding: 50px 0;
+	}
+	.investors,
+	.pressRelease {
+		padding-top: 40px;
+	}
+	/* core protocol page */ 
+	#coreProtocolPage .timeline,
+	#coreProtocolPage img {
+		margin: 10px 0;
+	}
+	/* community page */ 
+	#comPage .event {
+		padding-top: 20px;
+	}
+	/* document page */ 
+	#docsPage .item {
+		padding: 10px;
+		height: auto;
+		margin-bottom: 10px;
+	}
+	/* about page */ 
+	#aboutPage .owl-carousel .owl-prev {
+		left: -10px;
+	}
+	#aboutPage .owl-carousel .owl-next {
+		right: -10px;
+	}
 }
 @media (max-width: 576px) {
 	

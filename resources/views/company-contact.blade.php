@@ -8,7 +8,7 @@
 	    <section>
 	    	<div class="container">
 		    	<div class="row">
-		    		<div class="col-md-6">
+		    		<div class="col-lg-6 col-md-12">
 		    			<h2 class="sectionHeading text-uppercase">contact us</h2>
 		    			<h5>How can we help you?</h5>
 		    			<form action="">
@@ -52,7 +52,7 @@
 		    				<button class="btn btnOutlineRed text-uppercase">Submit</button>
 						</form>
 		    		</div>
-		    		<div class="col-md-6">
+		    		<div class="col-lg-6 d-lg-block d-none">
 		    			<img src="{{ asset('img/img-contact.jpg') }}" class="w-100">		
 		    		</div>
 		    	</div>

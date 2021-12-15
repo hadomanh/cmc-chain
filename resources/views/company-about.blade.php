@@ -32,7 +32,7 @@
 	    				<p>Researchers from ftxfund and CMC Chain, developers from Parity Technologies, and capital partners from crypto-funds such as Polychain Capital are all working together to develop a superlative realization of Web3, with CMC Chain at its core.</p>
 	    				<p>Web3 Foundation is providing grants for development of the ecosystem.</p>
 	    			</div>
-	    			<div class="col-md-6">
+	    			<div class="col-md-6 align-self-end">
 	    				<img src="{{ asset('img/img-19.jpg') }}" class="w-100">
 	    			</div>
 	    		</div>

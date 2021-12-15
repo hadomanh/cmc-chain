@@ -6,7 +6,7 @@
 		<section class="banner">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5">
+					<div class="col-lg-5 col-md-12">
 						<h1 class="sectionHeading">This is The Future Of Finance</h1>
 						<h2 class="sectionSubHeading">The convergence between decentralized and traditional financial models is accelerating and we are here to power it.</h2>
 						<div class="bannerLink">
@@ -31,7 +31,7 @@
 		</section>
 
 		<!-- What is CMC -->
-		<section class="whatIsCmc bgGradBlue bgArrow p-5">
+		<section class="whatIsCmc bgGradBlue bgArrow">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
@@ -40,33 +40,33 @@
 						<p>With our non-invasive cross-chain technology, CMCchain operates as a data conduit that allows cross-chain communications between public or private blockchains regardless of their protocols. CMCchain can transfer both assets and data without requiring any change on participating blockchains.</p>
 						<p>It means developers can build cross-chain applications on CMCchain with ease. Our unified infrastructure helps solutions run on multiple platforms by enabling interoperability among them and making the implementation as straightforward as possible from the developer's perspective.</p>
 					</div>
-					<div class="col-md-6 text-center">
+					<div class="col-md-6 text-center d-none d-md-block">
 						<img src="{{ asset('img/img-cube.png') }}" alt="">
 					</div>
 				</div>
 				<div class="row g-0 listAbility">
-					<div class="col-md-3">
+					<div class="col-lg-3 col-md-6">
 						<div class="item">
 							<img src="{{ asset('img/icon-scalability.png') }}" alt="">
 							<h5 class="title">Scalability</h5>
 							<p>We scale internally and externally. DPOS consensus can afford up to 100k TPS. ESWIM and CMNR can support “routing” and “load balancing” transactions, such as smart contract deployment. Hence, we help avoid sudden congestions at any specific time or event.</p>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-lg-3 col-md-6">
 						<div class="item">
 							<img src="{{ asset('img/icon-interoperability.png') }}" alt="">
 							<h5 class="title">Interoperability</h5>
 							<p>We invented Dual-node, a non-invasive cross-chain technology. Dual-node allows Dapps to perform different actions on different blockchain networks simultaneously. We call this ability to trigger actions on one chain from another chain - true interoperability.</p>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-lg-3 col-md-6">
 						<div class="item">
 							<img src="{{ asset('img/icon-developability.png') }}" alt="">
 							<h5 class="title">Developability</h5>
 							<p>Developing Dapps on CMCchain is more convenient than ever. Our technology helps developers cater to the broadest possible user base. KSML enables cross-chain-ready smart contracts. CMNR makes Dapps deployable wherever they fit most.</p>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-lg-3 col-md-6">
 						<div class="item">
 							<img src="{{ asset('img/icon-adoptability.png') }}" alt="">
 							<h5 class="title">Adoptability</h5>
@@ -82,7 +82,7 @@
 			<div class="container">
 				<h2 class="sectionHeading">CMCchain Foundation Hosted Projects</h2>
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-lg-3 col-md-6">
 						<div class="item projectFinished">
 							<div class="thumb">
 								<img src="{{ asset('img/real-estate-thumb.jpg') }}" alt="">
@@ -126,7 +126,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-lg-3 col-md-6">
 						<div class="item projectCalling">
 							<div class="thumb">
 								<img src="{{ asset('img/real-estate-thumb.jpg') }}" alt="">
@@ -169,7 +169,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-lg-3 col-md-6">
 						<div class="item projectComing">
 							<div class="thumb">
 								<img src="{{ asset('img/real-estate-thumb.jpg') }}" alt="">
@@ -213,7 +213,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-lg-3 col-md-6">
 						<div class="item projectComing">
 							<div class="thumb">
 								<img src="{{ asset('img/real-estate-thumb.jpg') }}" alt="">

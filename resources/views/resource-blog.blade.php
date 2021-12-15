@@ -10,7 +10,7 @@
             <h2 class="sectionHeading">CMCchain blog</h2>
             <div class="row">
                 @foreach ($news as $newsItem)
-                <div class="col-md-4 item">
+                <div class="col-lg-4 col-md-6 item">
                     <div class="card shadow">
                         <img class="card-img-top" src="{{ asset('storage/' . $newsItem->thumbnail) }}" alt="Card image cap">
                         <div class="card-body">
