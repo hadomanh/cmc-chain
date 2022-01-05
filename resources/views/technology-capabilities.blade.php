@@ -94,7 +94,7 @@
 							<li>Flexible asset reserve models for custom business requirements</li>
 							<li>Off chain asset documentation included in on chain asset definition</li>
 						</ul>
-						<div>User Protections: Asset spam protection that prevents unknown assets that may have tax, legal, or reputational risk from being sent to users without their explicit approval (users must opt-in to accept new assets).</div>
+						<p>User Protections: Asset spam protection that prevents unknown assets that may have tax, legal, or reputational risk from being sent to users without their explicit approval (users must opt-in to accept new assets).</p>
 	    			</div>
 	    			<div class="col-md-6">
 	    				<div class="imgWrap">
@@ -118,8 +118,8 @@
 	    			</div>
 	    		</div>
 	    		<h5 class="text-uppercase textPink">EXAMPLE ASSET TYPES</h5>
-	    		<div class="d-flex sampleAssets">
-	    			<div class="flex-fill item">
+	    		<div class="row g-0 sampleAssets">
+	    			<div class="col item">
 	    				<h6 class="title">FUNGIBLE TOKENS</h6>
 	    				<ul class="list-unstyled">
 	    					<li>In Game Points</li>
@@ -129,7 +129,7 @@
 	    					<li>Cryptocurrencies</li>
 	    				</ul>
 	    			</div>
-	    			<div class="flex-fill item">
+	    			<div class="col item">
 	    				<h6 class="title">NON FUNGIBLE TOKENS</h6>
 	    				<ul class="list-unstyled">
 	    					<li>In Game Items</li>
@@ -140,7 +140,7 @@
 	    					<li>Collectables</li>
 	    				</ul>
 	    			</div>
-	    			<div class="flex-fill item">
+	    			<div class="col item">
 	    				<h6 class="title">RESTRICTED FUNGIBLE TOKENS</h6>
 	    				<ul class="list-unstyled">
 	    					<li>Securities</li>
@@ -148,7 +148,7 @@
 	    					<li>Certifications</li>
 	    				</ul>
 	    			</div>
-	    			<div class="flex-fill item">
+	    			<div class="col item">
 	    				<h6 class="title">RESTRICTED NON FUNGIBLE TOKENS</h6>
 	    				<ul class="list-unstyled">
 	    					<li>Real Estate</li>

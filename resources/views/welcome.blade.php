@@ -6,7 +6,7 @@
 		<section class="banner">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5">
+					<div class="col-lg-5 col-md-12">
 						<h1 class="sectionHeading">This is The Future Of Finance</h1>
 						<h2 class="sectionSubHeading">The convergence between decentralized and traditional financial models is accelerating and we are here to power it.</h2>
 						<div class="bannerLink">
@@ -31,7 +31,7 @@
 		</section>
 
 		<!-- What is CMC -->
-		<section class="whatIsCmc bgGradBlue bgArrow p-5">
+		<section class="whatIsCmc bgGradBlue bgArrow">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
@@ -40,33 +40,33 @@
 						<p>With our non-invasive cross-chain technology, CMCchain operates as a data conduit that allows cross-chain communications between public or private blockchains regardless of their protocols. CMCchain can transfer both assets and data without requiring any change on participating blockchains.</p>
 						<p>It means developers can build cross-chain applications on CMCchain with ease. Our unified infrastructure helps solutions run on multiple platforms by enabling interoperability among them and making the implementation as straightforward as possible from the developer's perspective.</p>
 					</div>
-					<div class="col-md-6 text-center">
+					<div class="col-md-6 text-center d-none d-md-block">
 						<img src="{{ asset('img/img-cube.png') }}" alt="">
 					</div>
 				</div>
 				<div class="row g-0 listAbility">
-					<div class="col-md-3">
+					<div class="col-lg-3 col-md-6">
 						<div class="item">
 							<img src="{{ asset('img/icon-scalability.png') }}" alt="">
 							<h5 class="title">Scalability</h5>
 							<p>We scale internally and externally. DPOS consensus can afford up to 100k TPS. ESWIM and CMNR can support “routing” and “load balancing” transactions, such as smart contract deployment. Hence, we help avoid sudden congestions at any specific time or event.</p>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-lg-3 col-md-6">
 						<div class="item">
 							<img src="{{ asset('img/icon-interoperability.png') }}" alt="">
 							<h5 class="title">Interoperability</h5>
 							<p>We invented Dual-node, a non-invasive cross-chain technology. Dual-node allows Dapps to perform different actions on different blockchain networks simultaneously. We call this ability to trigger actions on one chain from another chain - true interoperability.</p>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-lg-3 col-md-6">
 						<div class="item">
 							<img src="{{ asset('img/icon-developability.png') }}" alt="">
 							<h5 class="title">Developability</h5>
 							<p>Developing Dapps on CMCchain is more convenient than ever. Our technology helps developers cater to the broadest possible user base. KSML enables cross-chain-ready smart contracts. CMNR makes Dapps deployable wherever they fit most.</p>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-lg-3 col-md-6">
 						<div class="item">
 							<img src="{{ asset('img/icon-adoptability.png') }}" alt="">
 							<h5 class="title">Adoptability</h5>
@@ -81,185 +81,183 @@
 		<section class="hostedProjects bgLightBlue bgArrow">
 			<div class="container">
 				<h2 class="sectionHeading">CMCchain Foundation Hosted Projects</h2>
-				<div class="listProjects">
-					<div class="total">Graduated Hyperledger Projects (68)</div>
-					<div class="row">
-						<div class="col-md-2">
-							<div class="item">
-								<a href="#">
-									<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-									<div class="info">
-										<div class="d-flex justify-content-between">
-											<div>Hyperledger Aries</div>
-											<div><i class="fas fa-star"></i>1,162</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<div class="item projectFinished">
+							<div class="thumb">
+								<img src="{{ asset('img/real-estate-thumb.jpg') }}" alt="">
+							</div>
+							<div class="bgGradPurple assetCall d-flex flex-column align-items-center justify-content-center">
+								<div class="fw-medium">Property cover</div>
+								<div class="fw-bold text-uppercase">CAPITAL CALL SUCCESS</div>
+							</div>
+							<div class="assetOverview">
+								<div class="assetName">Blue Angel Building</div>
+								<div class="assetStatus">PROJECT FINISHED</div>
+								<div class="assetInfo">
+									<div class="d-flex justify-content-between mb-2">
+										<div class="text">
+											<img src="{{ asset('img/icon-clock.png') }}" class="icon"> Investment time
 										</div>
-										<div class="mt-1">Hyperledger</div>
+										<div class="value fw-bold">6 months</div>
 									</div>
-								</a>
+									<div class="d-flex justify-content-between">
+										<div class="text">
+											<img src="{{ asset('img/icon-usd.png') }}" class="icon"> Expected profit
+										</div>
+										<div class="value fw-bold">15%</div>
+									</div>
+									<hr class="my-2">
+									<div class="d-flex justify-content-between investor mb-1">
+										<div>32 Investor</div>
+										<div class="value fw-bold">1,000/1,000</div>
+									</div>
+									<div class="progress">
+										<div class="progress-bar bgGradPurple" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<hr>
+									<a href="#" class="d-flex justify-content-between align-items-center address">
+										<div>
+											<img src="{{ asset('img/icon-location-2.png') }}" class="icon"> 1250 Bel air RD, Los Angrles, CA
+										</div>
+										<i class="fas fa-arrow-right more"></i>
+									</a>
+								</div>
 							</div>
 						</div>
-						<div class="col-md-2">
-							<div class="item">
-								<a href="#">
-									<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-									<div class="info">
-										<div class="d-flex justify-content-between">
-											<div>Hyperledger Aries</div>
-											<div><i class="fas fa-star"></i>1,162</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="item projectCalling">
+							<div class="thumb">
+								<img src="{{ asset('img/real-estate-thumb.jpg') }}" alt="">
+							</div>
+							<div class="bgGradPurple assetCall d-flex flex-column align-items-center justify-content-center">
+								<div class="fw-bold text-uppercase">CAPITAL CALL SUCCESS</div>
+							</div>
+							<div class="assetOverview">
+								<div class="assetName">Blue Angel Building</div>
+								<div class="assetStatus">PROJECT FINISHED</div>
+								<div class="assetInfo">
+									<div class="d-flex justify-content-between mb-2">
+										<div class="text">
+											<img src="{{ asset('img/icon-clock.png') }}" class="icon"> Investment time
 										</div>
-										<div class="mt-1">Hyperledger</div>
+										<div class="value fw-bold">6 months</div>
 									</div>
-								</a>
+									<div class="d-flex justify-content-between">
+										<div class="text">
+											<img src="{{ asset('img/icon-usd.png') }}" class="icon"> Expected profit
+										</div>
+										<div class="value fw-bold">15%</div>
+									</div>
+									<hr class="my-2">
+									<div class="d-flex justify-content-between investor mb-1">
+										<div>32 Investor</div>
+										<div class="value fw-bold">1,000/1,000</div>
+									</div>
+									<div class="progress">
+										<div class="progress-bar bgGradPurple" role="progressbar" style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<hr>
+									<a href="#" class="d-flex justify-content-between align-items-center address">
+										<div>
+											<img src="{{ asset('img/icon-location-2.png') }}" class="icon"> 1250 Bel air RD, Los Angrles, CA
+										</div>
+										<i class="fas fa-arrow-right more"></i>
+									</a>
+								</div>
 							</div>
 						</div>
-						<div class="col-md-2">
-							<div class="item">
-								<a href="#">
-									<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-									<div class="info">
-										<div class="d-flex justify-content-between">
-											<div>Hyperledger Aries</div>
-											<div><i class="fas fa-star"></i>1,162</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="item projectComing">
+							<div class="thumb">
+								<img src="{{ asset('img/real-estate-thumb.jpg') }}" alt="">
+								<div class="time">03:16:59:48</div>
+							</div>
+							<div class="bgGradPurple assetCall d-flex flex-column align-items-center justify-content-center">
+								<div class="fw-bold text-uppercase">1,000 portion</div>
+							</div>
+							<div class="assetOverview">
+								<div class="assetName">Muse Building</div>
+								<div class="assetStatus">COMING UP</div>
+								<div class="assetInfo">
+									<div class="d-flex justify-content-between mb-2">
+										<div class="text">
+											<img src="{{ asset('img/icon-clock.png') }}" class="icon"> Investment time
 										</div>
-										<div class="mt-1">Hyperledger</div>
+										<div class="value fw-bold">6 months</div>
 									</div>
-								</a>
+									<div class="d-flex justify-content-between">
+										<div class="text">
+											<img src="{{ asset('img/icon-usd.png') }}" class="icon"> Expected profit
+										</div>
+										<div class="value fw-bold">15%</div>
+									</div>
+									<hr class="my-2">
+									<div class="d-flex justify-content-between investor mb-1">
+										<div>0</div>
+										<div class="value fw-bold">1,000/1,000</div>
+									</div>
+									<div class="progress">
+										<div class="progress-bar bgGradPurple" role="progressbar" style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<hr>
+									<a href="#" class="d-flex justify-content-between align-items-center address">
+										<div>
+											<img src="{{ asset('img/icon-location-2.png') }}" class="icon"> 1250 Bel air RD, Los Angrles, CA
+										</div>
+										<i class="fas fa-arrow-right more"></i>
+									</a>
+								</div>
 							</div>
 						</div>
-						<div class="col-md-2">
-							<div class="item">
-								<a href="#">
-									<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-									<div class="info">
-										<div class="d-flex justify-content-between">
-											<div>Hyperledger Aries</div>
-											<div><i class="fas fa-star"></i>1,162</div>
-										</div>
-										<div class="mt-1">Hyperledger</div>
-									</div>
-								</a>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="item projectComing">
+							<div class="thumb">
+								<img src="{{ asset('img/real-estate-thumb.jpg') }}" alt="">
+								<div class="time">coming up</div>
 							</div>
-						</div>
-						<div class="col-md-2">
-							<div class="item">
-								<a href="#">
-									<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-									<div class="info">
-										<div class="d-flex justify-content-between">
-											<div>Hyperledger Aries</div>
-											<div><i class="fas fa-star"></i>1,162</div>
-										</div>
-										<div class="mt-1">Hyperledger</div>
-									</div>
-								</a>
+							<div class="bgGradPurple assetCall d-flex flex-column align-items-center justify-content-center">
+								<div class="fw-bold text-uppercase">1,000 portion</div>
 							</div>
-						</div>
-						<div class="col-md-2">
-							<div class="item">
-								<a href="#">
-									<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-									<div class="info">
-										<div class="d-flex justify-content-between">
-											<div>Hyperledger Aries</div>
-											<div><i class="fas fa-star"></i>1,162</div>
+							<div class="assetOverview">
+								<div class="assetName">Muse Building</div>
+								<div class="assetStatus">updating</div>
+								<div class="assetInfo">
+									<div class="d-flex justify-content-between mb-2">
+										<div class="text">
+											<img src="{{ asset('img/icon-clock.png') }}" class="icon"> Investment time
 										</div>
-										<div class="mt-1">Hyperledger</div>
+										<div class="value fw-bold">6 months</div>
 									</div>
-								</a>
+									<div class="d-flex justify-content-between">
+										<div class="text">
+											<img src="{{ asset('img/icon-usd.png') }}" class="icon"> Expected profit
+										</div>
+										<div class="value fw-bold">15%</div>
+									</div>
+									<hr class="my-2">
+									<div class="d-flex justify-content-between investor mb-1">
+										<div>0 Investor</div>
+										<div class="value fw-bold">1,000/1,000</div>
+									</div>
+									<div class="progress">
+										<div class="progress-bar bgGradPurple" role="progressbar" style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<hr>
+									<a href="#" class="d-flex justify-content-between align-items-center address">
+										<div>
+											<img src="{{ asset('img/icon-location-2.png') }}" class="icon"> 1250 Bel air RD, Los Angrles, CA
+										</div>
+										<i class="fas fa-arrow-right more"></i>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="listProjects">
-					<div class="total">Incubating Hyperledger Projects (98)</div>
-					<div class="row">
-						<div class="col-md-2">
-							<div class="item">
-								<a href="#">
-									<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-									<div class="info">
-										<div class="d-flex justify-content-between">
-											<div>Hyperledger Aries</div>
-											<div><i class="fas fa-star"></i>1,162</div>
-										</div>
-										<div class="mt-1">Hyperledger</div>
-									</div>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-2">
-							<div class="item">
-								<a href="#">
-									<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-									<div class="info">
-										<div class="d-flex justify-content-between">
-											<div>Hyperledger Aries</div>
-											<div><i class="fas fa-star"></i>1,162</div>
-										</div>
-										<div class="mt-1">Hyperledger</div>
-									</div>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-2">
-							<div class="item">
-								<a href="#">
-									<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-									<div class="info">
-										<div class="d-flex justify-content-between">
-											<div>Hyperledger Aries</div>
-											<div><i class="fas fa-star"></i>1,162</div>
-										</div>
-										<div class="mt-1">Hyperledger</div>
-									</div>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-2">
-							<div class="item">
-								<a href="#">
-									<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-									<div class="info">
-										<div class="d-flex justify-content-between">
-											<div>Hyperledger Aries</div>
-											<div><i class="fas fa-star"></i>1,162</div>
-										</div>
-										<div class="mt-1">Hyperledger</div>
-									</div>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-2">
-							<div class="item">
-								<a href="#">
-									<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-									<div class="info">
-										<div class="d-flex justify-content-between">
-											<div>Hyperledger Aries</div>
-											<div><i class="fas fa-star"></i>1,162</div>
-										</div>
-										<div class="mt-1">Hyperledger</div>
-									</div>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-2">
-							<div class="item">
-								<a href="#">
-									<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-									<div class="info">
-										<div class="d-flex justify-content-between">
-											<div>Hyperledger Aries</div>
-											<div><i class="fas fa-star"></i>1,162</div>
-										</div>
-										<div class="mt-1">Hyperledger</div>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<h2 class="sectionHeading text-center"><a href=""><span>View</span>	the full interactive landscape</a></h2>
 			</div>
 		</section>
 
@@ -278,7 +276,7 @@
 			<div class="container">
 				<h2 class="sectionHeading">Press Release</h2>
 			</div>
-			<div class="owl-carousel owl-theme">
+			<div class="owl-carousel owl-theme list">
 				<div class="item">
 					<img src="{{ asset('img/project-logo-1.png') }}" alt="">
 				</div>

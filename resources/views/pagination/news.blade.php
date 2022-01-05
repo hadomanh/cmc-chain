@@ -1,14 +1,14 @@
 @if ($paginator->total() > $paginator->perPage())
-    <div class="d-flex justify-content-center pt-5">
-        <div id="blogPagination">
+    <div class="d-flex justify-content-center">
+        <div class="pagination">
             @if ($paginator->currentPage() > 1)
-                <a href="{{ $paginator->previousPageUrl() }}" style="color: #e3007a">PREVIOUS</a>
+                <a href="{{ $paginator->previousPageUrl() }}" class="p-pre">PREVIOUS</a>
             @endif
 
-            <a href="javascript:void(0}" class="text-muted">{{'Page ' . $paginator->currentPage() . ' of ' . $paginator->lastPage()}}</a>
+            <span>{{'Page ' . $paginator->currentPage() . ' of ' . $paginator->lastPage()}}</span>
             
             @if ($paginator->hasMorePages())
-                <a href="{{ $paginator->url($paginator->lastPage()) }}" style="color: #e3007a">NEXT</a>
+                <a href="{{ $paginator->url($paginator->lastPage()) }}" class="p-next">NEXT</a>
             @endif
         </div>
     </div>
