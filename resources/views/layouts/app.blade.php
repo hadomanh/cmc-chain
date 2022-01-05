@@ -181,7 +181,7 @@
 							<div class="col-md-6">
 								<h6 class="title"><span>Ecosystem</span></h6>
 								<ul>
-									<li><a href="https://testnet.cmcscan.com/">Testnet</a></li>
+									<li><a href="https://testnet.cmcscan.com/" target="_blank">Testnet</a></li>
 									<li><a href="javascript:void(0)">Mainnet</a></li>
 									<li><a href="javascript:void(0)">CMC Wallets</a></li>
 									<li><a href="javascript:void(0)">Wowidex</a></li>
@@ -190,11 +190,11 @@
 							<div class="col-md-6">
 								<h6 class="title"><span>External Resourcus</span></h6>
 								<ul>
-									<li><a href="https://cmcinvest.io/">CMC Invest</a></li>
-									<li><a href="https://cmcchain.foundation/">CMC Foundation </a></li>
-									<li><a href="https://diasplat.com/">Diasplat</a></li>
-									<li><a href="https://onstora.com/">Onstora</a></li>
-									<li><a href="https://paygate.global/">Payment Gate </a></li>
+									<li><a href="https://cmcinvest.io/" target="_blank">CMC Invest</a></li>
+									<li><a href="https://cmcchain.foundation/" target="_blank">CMC Foundation </a></li>
+									<li><a href="https://diasplat.com/" target="_blank">Diasplat</a></li>
+									<li><a href="https://onstora.com/" target="_blank">Onstora</a></li>
+									<li><a href="https://paygate.global/" target="_blank">Payment Gate </a></li>
 								</ul>
 							</div>
 							<div class="col-md-6">
