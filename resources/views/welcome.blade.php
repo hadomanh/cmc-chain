@@ -11,7 +11,7 @@
 						<h2 class="sectionSubHeading">The convergence between decentralized and traditional financial models is accelerating and we are here to power it.</h2>
 						<div class="bannerLink">
 							<a href="#" class="btn btnOutlineRed text-uppercase">white paper</a>
-							<a href="#" class="btn btnRed text-uppercase">smart contract</a>
+							<a href="{{ route('technology.capabilities') }}" class="btn btnRed text-uppercase">smart contract</a>
 						</div>
 					</div>
 				</div>
@@ -22,9 +22,10 @@
 		<section class="welcome bgWhite bgArrow">
 			<div class="container">
 				<div class="welcomeText">
-					<h2 class="sectionHeading">Welcome to CMCchain</h2>
-					<p>CMCchain is The First Decentralized Interoperable and Self-Optimised Blockchain Infrastructure. We aim to push the current boundaries by solving one of the most prominent challenges facing blockchain technology — fragmentation of the blockchain ecosystems.</p>
-					<p>Our goal is to create a unified platform that combines all participants' collective strengths to lay the foundation for global blockchain mass adoption.</p>
+					<h2 class="sectionHeading">Welcome to CMC chain</h2>
+					<p>CMC chain is the first decentralized interoperable and self-optimised blockchain infrastructure. We aim to push the current boundaries by solving one of the most prominent challenges facing blockchain technology - fragmentation of the blockchain ecosystems.</p>
+					<p>Our goal is to create a unified platform that combines all participants collective strengths to lay the foundation for global blockchain mass adoption.</p>
+
 				</div>
 				<img src="{{ asset('img/img-welcome.jpg') }}" alt="">
 			</div>
@@ -35,10 +36,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<h2 class="sectionHeading">What is CMCchain?</h2>
-						<p>CMCchain is a blockchain infrastructure that helps connect other blockchains.</p>
-						<p>With our non-invasive cross-chain technology, CMCchain operates as a data conduit that allows cross-chain communications between public or private blockchains regardless of their protocols. CMCchain can transfer both assets and data without requiring any change on participating blockchains.</p>
-						<p>It means developers can build cross-chain applications on CMCchain with ease. Our unified infrastructure helps solutions run on multiple platforms by enabling interoperability among them and making the implementation as straightforward as possible from the developer's perspective.</p>
+						<h2 class="sectionHeading">What is CMC chain?</h2>
+						
+						<p>CMC chain is a blockchain infrastructure that helps connect other blockchains.</p>
+						<p>With our non-invasive cross-chain technology CMC chain operates as a data conduit that allows cross-chain communications between public or private blockchains regardless of their protocols. CMC chain can transfer both assets and data without requiring any change on participating blockchains.</p>
+						<p>This allows developers to build cross-chain applications on CMC chain with ease. Our unified infrastructure helps solutions run on multiple platforms by enabling interoperability among them and making the implementation as straightforward as possible from the developer's perspective.</p>
+
 					</div>
 					<div class="col-md-6 text-center d-none d-md-block">
 						<img src="{{ asset('img/img-cube.png') }}" alt="">
@@ -63,14 +66,14 @@
 						<div class="item">
 							<img src="{{ asset('img/icon-developability.png') }}" alt="">
 							<h5 class="title">Developability</h5>
-							<p>Developing Dapps on CMCchain is more convenient than ever. Our technology helps developers cater to the broadest possible user base. KSML enables cross-chain-ready smart contracts. CMNR makes Dapps deployable wherever they fit most.</p>
+							<p>Developing dApps on CMC chain is more convenient than ever. Our technology helps developers cater to the broadest possible user base. KSML enables cross-chain-ready smart contracts. CMNR makes dApps deployable wherever they fit best.</p>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6">
 						<div class="item">
 							<img src="{{ asset('img/icon-adoptability.png') }}" alt="">
 							<h5 class="title">Adoptability</h5>
-							<p>At consumer level, non-crypto people can access multi-chain and cross-chain Dapps built by our partners with mobile-first mentality. At enterprise level, Dual-node enables hybrid solutions for businesses to easily adopt both public and private blockchain tailored to their needs.</p>
+							<p>At consumer level non-crypto people can access multi-chain and cross-chain dApps built by our partners with mobile-first mentality. At enterprise level Dual-node enables hybrid solutions for businesses to easily adopt both public and private blockchains tailored to their needs.</p>
 						</div>
 					</div>
 				</div>
@@ -80,7 +83,7 @@
 		<!-- Hosted projects -->
 		<section class="hostedProjects bgLightBlue bgArrow">
 			<div class="container">
-				<h2 class="sectionHeading">CMCchain Foundation Hosted Projects</h2>
+				<h2 class="sectionHeading">CMC chain Foundation Hosted Projects</h2>
 				<div class="row">
 					<div class="col-lg-3 col-md-6">
 						<div class="item projectFinished">
@@ -280,28 +283,10 @@
 				<div class="item">
 					<img src="{{ asset('img/project-logo-1.png') }}" alt="">
 				</div>
-				<div class="item">
-					<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-				</div>
-				<div class="item">
-					<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-				</div>
-				<div class="item">
-					<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-				</div>
-				<div class="item">
-					<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-				</div>
-				<div class="item">
-					<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-				</div>
-				<div class="item">
-					<img src="{{ asset('img/project-logo-1.png') }}" alt="">
-				</div>
 			</div>
-			<div class="text-center">
+			{{-- <div class="text-center">
 				<a href="javascript:void(0)" class="more">read more</a>
-			</div>
+			</div> --}}
 		</section>
 		
 @endsection

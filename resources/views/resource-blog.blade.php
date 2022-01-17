@@ -7,8 +7,8 @@
     </section>
     <section class="listBlog">
         <div class="container">
-            <h2 class="sectionHeading">CMCchain blog</h2>
-            <div class="row">
+            <h2 class="sectionHeading">CMC chain blog</h2>
+            {{-- <div class="row">
                 @foreach ($news as $newsItem)
                 <div class="col-lg-4 col-md-6 item">
                     <div class="card shadow">
@@ -21,7 +21,7 @@
                 </div>
                 @endforeach
             </div>
-            @include('pagination.news', ['paginator' => $news])
+            @include('pagination.news', ['paginator' => $news]) --}}
         </div>
     </section>
 </div>
