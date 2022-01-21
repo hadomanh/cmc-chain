@@ -16,36 +16,31 @@
 		    					<div class="col-md-6">
 		    						<div class="mb-3">
 										<label class="form-label">Name <span class="text-danger">*</span></label>
-										<input type="text" class="form-control" placeholder="Enter Name">
+										<input type="text" class="form-control">
 									</div>	
 		    					</div>
 		    					<div class="col-md-6">
 		    						<div class="mb-3">
 										<label class="form-label">Email <span class="text-danger">*</span></label>
-										<input type="email" class="form-control" placeholder="Enter Email">
+										<input type="email" class="form-control">
 									</div>	
 		    					</div>
 		    					<div class="col-md-6">
 		    						<div class="mb-3">
 										<label class="form-label">Ragarding <span class="text-danger">*</span></label>
-										<select class="form-select" aria-label="Default select example">
-											<option selected>Select</option>
-											<option value="1">One</option>
-											<option value="2">Two</option>
-											<option value="3">Three</option>
-										</select>
+										<input type="text" class="form-control">
 									</div>	
 		    					</div>
 		    					<div class="col-md-6">
 		    						<div class="mb-3">
 										<label class="form-label">Phone <span class="text-danger">*</span></label>
-										<input type="text" class="form-control" placeholder="Enter Phone">
+										<input type="text" class="form-control">
 									</div>	
 		    					</div>
 		    					<div class="col-md-12">
 		    						<div class="mb-3">
 										<label class="form-label">Message <span class="text-danger">*</span></label>
-										<textarea class="form-control" placeholder="Enter Message"></textarea>
+										<textarea class="form-control"></textarea>
 									</div>	
 		    					</div>
 		    				</div>

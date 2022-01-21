@@ -39,9 +39,9 @@
 				<ul class="list-unstyled d-flex align-items-center justify-content-end m-0">
 					<li class="link">
 						<a href="#">Buy CMC</a>
-						<a href="#">Support</a>
+						<a href="{{ route('company.contact') }}">Support</a>
 					</li>
-					<li class="search">
+					{{-- <li class="search">
 						<i class="fas fa-search" aria-hidden="true"></i>
 					</li>
 					<li class="language">
@@ -55,7 +55,7 @@
 								<li><a class="dropdown-item" href="#">Something else here</a></li>
 							</ul>
 						</div>
-					</li>		
+					</li>		 --}}
 				</ul>
 			</div>
 			<nav class="navbar navbar-expand-lg bg-light">
@@ -77,7 +77,8 @@
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li><a class="dropdown-item" href="{{ route('technology.capabilities') }}">Layer-1 Capabilities</a></li>
 								<li><a class="dropdown-item" href="{{ route('technology.protocol') }}">Core Protocol</a></li>
-								<li><a class="dropdown-item" href="{{ route('technology.research') }}">Research</a></li>
+								<li><a class="dropdown-item" href="{{ route('resource.documentations')}}">Setup</a></li>
+								{{-- <li><a class="dropdown-item" href="{{ route('technology.research') }}">Research</a></li> --}}
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
@@ -85,7 +86,7 @@
 								Ecosystem
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="javascript:void(0)">Testnet</a></li>
+								<li><a class="dropdown-item" href="https://testnet.cmcscan.com/" target="_blank">Testnet</a></li>
 								<li><a class="dropdown-item" href="javascript:void(0)">Mainnet</a></li>
 								<li><a class="dropdown-item" href="javascript:void(0)">CMC Wallets</a></li>
 								<li><a class="dropdown-item" href="javascript:void(0)">Wowidex</a></li>
@@ -93,27 +94,26 @@
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle {{ str_contains(Route::currentRouteName(), 'external.') ? 'active' : '' }}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-								External Resourcus
+								External Environment
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="javascript:void(0)">CMC Invest</a></li>
-								<li><a class="dropdown-item" href="javascript:void(0)">CMC Foundation</a></li>
-								<li><a class="dropdown-item" href="javascript:void(0)">Diasplat</a></li>
-								<li><a class="dropdown-item" href="javascript:void(0)">Onstora</a></li>
-								<li><a class="dropdown-item" href="javascript:void(0)">Payment Gate</a></li>
+								<li><a class="dropdown-item" href="https://cmcinvest.io/" target="_blank">CMC Invest</a></li>
+								<li><a class="dropdown-item" href="https://cmcchain.foundation/" target="_blank">CMC Foundation</a></li>
+								<li><a class="dropdown-item" href="https://diasplat.com/" target="_blank">Diasplat</a></li>
+								<li><a class="dropdown-item" href="https://onstora.com/" target="_blank">Onstora</a></li>
+								<li><a class="dropdown-item" href="https://paygate.global/" target="_blank">Payment Gate</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle {{ str_contains(Route::currentRouteName(), 'resource.') ? 'active' : '' }}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-								Resource
+								Resources
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li><a class="dropdown-item" href="{{ route('resource.community')}}">Community</a></li>
-								<li><a class="dropdown-item" href="{{ route('resource.documentations')}}">Documentations</a></li>
 								<li><a class="dropdown-item" href="{{ route('resource.brandkit')}}">Brand Kit</a></li>
 								<li><a class="dropdown-item" href="{{ route('resource.blog')}}">Blog</a></li>
 								<li><a class="dropdown-item" href="{{ route('resource.whitepaper')}}">White Paper</a></li>
-								<li><a class="dropdown-item" href="{{ route('resource.smartcontract')}}">Smart Contract</a></li>
+								{{-- <li><a class="dropdown-item" href="{{ route('resource.smartcontract')}}">Smart Contract</a></li> --}}
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
@@ -122,8 +122,8 @@
 							</a>
 							<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
 								<li><a class="dropdown-item" href="{{ route('company.about') }}">About Us</a></li>
-								<li><a class="dropdown-item" href="{{ route('company.directors') }}">Board of Directors</a></li>
-								<li><a class="dropdown-item" href="{{ route('company.advisor') }}">Technical Advisory</a></li>
+								{{-- <li><a class="dropdown-item" href="{{ route('company.directors') }}">Board of Directors</a></li> --}}
+								{{-- <li><a class="dropdown-item" href="{{ route('company.advisor') }}">Technical Advisory</a></li> --}}
 								<li><a class="dropdown-item" href="{{ route('company.faqs') }}">FAQs</a></li>
 								<li><a class="dropdown-item" href="{{ route('company.contact') }}">Contact US</a></li>
 							</ul>
@@ -141,7 +141,7 @@
 				<div class="row align-items-center">
 		            <div class="col-md-auto col-sm text-end">
 		                <h6 class="mb-0">Stay ahead</h6>
-		                <div>weekly insights straight to your inbox</div>
+		                <div>The best crypto insights straight to your inbox</div>
 		            </div>
 		            <div class="col">
 		                <div class="input-group input-group-lg">
@@ -163,9 +163,8 @@
 						<img src="{{ asset('img/logo-footer.png') }}" class="footerLogo">
 						<h6 class="title"><span>CMC CHAIN LTD (UK)</span></h6>
 						<ul class="list-unstyled">
-							<li class="mb-2"><span class="fw-medium">Address 1:</span> No. 40 Gracechurch Street, London, EC3V 0BT, USA</li>
-							<li class="mb-2"><span class="fw-medium">Address 2:</span> 116 Albert (City of Ottawa, Ontario), Canada</li>
-							<li><span class="fw-medium">Email:</span> support@cmcchain.io   |   <span class="fw-medium">Website:</span> www.cmcchain.io</li>
+							<li class="mb-2"><span class="fw-medium">Address:</span> No. 40 Gracechurch Street, London, EC3V 0BT, UK</li>
+							<li><span class="fw-medium">Contact:</span> support@cmcchain.io</li>
 						</ul>
 					</div>
 					<div class="col-md-6">
@@ -175,37 +174,37 @@
 								<ul>
 									<li><a href="{{ route('technology.capabilities') }}">Layer-1 Capabilities</a></li>
 									<li><a href="{{ route('technology.protocol') }}">Core Protocol</a></li>
-									<li><a href="{{ route('technology.research') }}">Research</a></li>
+									<li><a href="{{ route('resource.documentations')}}">Setup</a></li>
+									{{-- <li><a href="{{ route('technology.research') }}">Research</a></li> --}}
 								</ul>
 							</div>
 							<div class="col-md-6">
 								<h6 class="title"><span>Ecosystem</span></h6>
 								<ul>
-									<li><a href="javascript:void(0)">Testnet</a></li>
+									<li><a href="https://testnet.cmcscan.com/" target="_blank">Testnet</a></li>
 									<li><a href="javascript:void(0)">Mainnet</a></li>
 									<li><a href="javascript:void(0)">CMC Wallets</a></li>
 									<li><a href="javascript:void(0)">Wowidex</a></li>
 								</ul>
 							</div>
 							<div class="col-md-6">
-								<h6 class="title"><span>External Resourcus</span></h6>
+								<h6 class="title"><span>External Environment</span></h6>
 								<ul>
-									<li><a href="javascript:void(0)">CMC invest</a></li>
-									<li><a href="javascript:void(0)">CMC foundation </a></li>
-									<li><a href="javascript:void(0)">Diasplat</a></li>
-									<li><a href="javascript:void(0)">Onstora</a></li>
-									<li><a href="javascript:void(0)">Payment Gate </a></li>
+									<li><a href="https://cmcinvest.io/" target="_blank">CMC Invest</a></li>
+									<li><a href="https://cmcchain.foundation/" target="_blank">CMC Foundation </a></li>
+									<li><a href="https://diasplat.com/" target="_blank">Diasplat</a></li>
+									<li><a href="https://onstora.com/" target="_blank">Onstora</a></li>
+									<li><a href="https://paygate.global/" target="_blank">Payment Gate </a></li>
 								</ul>
 							</div>
 							<div class="col-md-6">
-								<h6 class="title"><span>Resource</span></h6>
+								<h6 class="title"><span>Resources</span></h6>
 								<ul>
 									<li><a href="{{ route('resource.community')}}">Community</a></li>
-									<li><a href="{{ route('resource.documentations')}}">Documentations</a></li>
 									<li><a href="{{ route('resource.brandkit')}}">Brand Kit</a></li>
 									<li><a href="{{ route('resource.blog')}}">Blog</a></li>
 									<li><a href="{{ route('resource.whitepaper')}}">White Paper</a></li>
-									<li><a href="{{ route('resource.smartcontract')}}">Smart contract</a></li>
+									{{-- <li><a href="{{ route('resource.smartcontract')}}">Smart contract</a></li> --}}
 								</ul>
 							</div>
 						</div>
@@ -218,8 +217,8 @@
 								<h6 class="title"><span>Compay</span></h6>
 								<ul>
 									<li><a href="{{ route('company.about') }}">About Us</a></li>
-									<li><a href="{{ route('company.directors') }}">Board of Directors</a></li>
-									<li><a href="{{ route('company.advisor') }}">Technical Advisory Board</a></li>
+									{{-- <li><a href="{{ route('company.directors') }}">Board of Directors</a></li> --}}
+									{{-- <li><a href="{{ route('company.advisor') }}">Technical Advisory Board</a></li> --}}
 									<li><a href="{{ route('company.faqs') }}">FAQS</a></li>
 									<li><a href="{{ route('company.contact') }}">Contact us</a></li>
 								</ul>
@@ -248,7 +247,7 @@
 					</div>
 					<div class="col-md-6 order-md-1">
 						<div class="copyright">
-							<p class="mb-1">Copyright © 2021 - 2022 CMCchain.io All rights reserved</p>
+							<p class="mb-1">Copyright © 2021 - 2022 CMCchain.io. All rights reserved.</p>
 							<a href="">Privacy Notice</a>   |   <a href="">Legal</a>   |   <a href="">Status</a>   |   <a href="">Cookie Preferences</a>
 						</div>
 					</div>

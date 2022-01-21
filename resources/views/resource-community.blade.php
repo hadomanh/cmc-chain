@@ -8,8 +8,8 @@
     	<section>
     		<div class="container">
     			<div class="mw-700 text-center">
-    				<h2 class="sectionHeading underline text-uppercase">Join the cmcchain community</h2>
-    				<p>CMCchain is a 100% open-source project created to enable a decentralized web and better society. Anyone can contribute.</p>
+    				<h2 class="sectionHeading underline text-uppercase">Join the CMC chain community</h2>
+    				<p>CMC chain is a 100% open source project created to enable a decentralized web and better society. Anyone can contribute!</p>
     			</div>
     		</div>
     	</section>
@@ -22,7 +22,7 @@
 	    						<div class="icon"><i class="fab fa-twitter"></i></div>
 	    						<div>
 	    							<h6 class="name">Twitter</h6>
-	    							<div>Follow @ CMCchain</div>
+	    							<div>Follow @ CMC chain</div>
 	    						</div>
 	    					</div>
 	    				</div>
@@ -40,7 +40,7 @@
 	    						<div class="icon"><i class="fab fa-reddit-alien"></i></div>
 	    						<div>
 	    							<h6 class="name">Reddit</h6>
-	    							<div>Discuss CMCchain news</div>
+	    							<div>Discuss CMC chain news</div>
 	    						</div>
 	    					</div>
 	    				</div>
@@ -94,22 +94,22 @@
 	    						<div class="icon"><i class="fab fa-facebook"></i></div>
 	    						<div>
 	    							<h6 class="name">Facebook</h6>
-	    							<div>Follow @ CMCchain</div>
+	    							<div>Follow @ CMC chain</div>
 	    						</div>
 	    					</div>
 	    				</div>
 	    			</div>
     			</div>
-    			<h2 class="sectionHeading underline text-uppercase">Run a node and interact with the CMCCHAIN testnet</h2>
+    			<h2 class="sectionHeading underline text-uppercase">Run a node and interact with the CMC chain testnet</h2>
     			<div class="row">
     				<div class="col-md-6">
-    					<p>If you'd like to play with CMCchain, you'll need to install and run the Parity CMCchain client. Get the client at <a href="#" class="btn btnOutlineBlue xs">Parity’s CMCchain repo</a></p>
-    					<p>Alexander is the current default public testnet for CMCchain. By default, any node running on the Alexander testnet will appear on the <a href="#" class="btn btnOutlineBlue xs">telemetry.cmcchain.io</a></p>
+    					<p>If you'd like to play with CMC chain, you'll need to install and run the Parity CMC chain client. Get the client at <a href="#" class="btn btnOutlineBlue xs">Parity’s CMC chain repo</a></p>
+    					<p>Alexander is the current default public testnet for CMC chain. By default, any node running on the Alexander testnet will appear on the <a href="#" class="btn btnOutlineBlue xs">telemetry.CMC chain.io</a></p>
     					<p>The testnet allows you to create accounts, propose governance referenda, stake testnet DOT to become a validator or nominate other accounts as validators with your testnet DOT.</p>	
     				</div>
     				<div class="col-md-6">
-    					<p>Connect your running node to the main <a href="#" class="btn btnOutlineBlue xs">CMCchain user interface</a> to play around.</p>
-    					<p>Get testnet DOT to stake by following these instructions on the <a href="#" class="btn btnOutlineBlue xs">CMCchain Wiki</a></p>
+    					<p>Connect your running node to the main <a href="#" class="btn btnOutlineBlue xs">CMC chain user interface</a> to play around.</p>
+    					<p>Get testnet DOT to stake by following these instructions on the <a href="#" class="btn btnOutlineBlue xs">CMC chain Wiki</a></p>
     					<p>If you don’t want to run a node, you can still interact with the network by using <a href="#" class="btn btnOutlineBlue xs">the explorer</a></p>
     					<p>Before interacting with the testnet, please read this <a href="#" class="btn btnOutlineBlue xs">legal notice</a></p>
     				</div>
@@ -119,8 +119,8 @@
     	<section class="bgGradBlue text-center">
     		<div class="container">
     			<h2 class="sectionHeading underline text-uppercase">Getting Involved</h2>
-    			<div>From running a validator on CMCchain, to applying for a Web3 Foundation</div>
-				<div>Grant, to joining the CMCchain Ambassador Program — there are many ways to engage with the CMCchain community.</div>
+    			<div>From running a validator on CMC chain, to applying for a Web3 Foundation</div>
+				<div>Grant or joining the CMC chain Ambassador Program — there are many ways to engage with the CMC chain community.</div>
     		</div>
     	</section>
     	<section>
@@ -129,21 +129,21 @@
     			<div class="row mb-4">
     				<div class="col-md-6">
     					<h5>1. Set up your machine</h5>
-    					<p>In addition to any usual CLI parameters that you run CMCchain with, you'll need to add an extra two:</p>
+    					<p>In addition to any usual CLI parameters that you run CMC chain with you'll also need:</p>
     					<ul class="style-1">
-    						<li><span class="colorpink">--validator</span> This tells your node to try to validate when it sees itself as a listed authority on the network;</li>
-							<li><span class="colorpink">--key < SEED ></span> This provides your node with a secret key that lets it know whether it's a listed authority on the network, and, if it is, lets it sign statements to authorise the creation of new blocks.</li>
+    						<li><span class="colorpink">A validator - </span> This tells your node to try to validate when it sees itself as a listed authority on the network</li>
+							<li><span class="colorpink">A key < SEED > - </span> This provides your node with a secret key that lets it know whether it's a listed authority on the network and if it is lets it sign statements to authorise the creation of new blocks</li>
     					</ul>
     				</div>
     				<div class="col-md-6">
     					<h5>2. Apply to validate</h5>
-    					<p>New validators will be chosen every 24 hours on mainnet. You’ll need to create separate accounts for Controller, Session, and Stash keys on the Polkadot UI (https://cmcchain.org/apps/#/accounts/create). These accounts will be used to represent and control the validator node you just set up.</p>
-    					<p>Next you will need to get some DOT from the faucet or by asking on Element. Assuming you have more DOT than the lowest staked validator or there is an open validator slot, you can register to be staked. A step-by-step guide demonstrating how to set up your accounts and bond your DOT is available on the wiki.</p>
+    					<p>New validators will be chosen every 24 hours on mainnet. You’ll need to create separate accounts for Controller, Session and Stash keys on the CMC chain UI (https://cmcchain.org/apps/#/accounts/create). These accounts will be used to represent and control the validator node you just set up.</p>
+    					<p>Next you will also need to get some CMC from the faucet or by asking on Element. Assuming you have more CMC than the lowest staked validator or there is an open validator slot you can register to be staked. A step-by-step guide demonstrating how to set up your accounts and bond your CMC is available on the wiki.</p>
     				</div>	
     			</div>
     			<div class="text-center">
     				<h5>Want to become a validator?</h5>
-    				<div class="my-4"><a href="#" class="btn btnOutlineRed sm">LEARN MORE <span class="ms-2">⟶</span></a></div>
+    				{{-- <div class="my-4"><a href="#" class="btn btnOutlineRed sm">LEARN MORE <span class="ms-2">⟶</span></a></div> --}}
     				<p>You can see validator stats on <a href="#" class="colorpink"><ins>Telemetry</ins></a>.</p>
     			</div>
     		</div>
@@ -152,31 +152,40 @@
     		<div class="container">
     			<div class="row">
     				<div class="col-md-6">
-    					<h2 class="sectionHeading text-uppercase">Get a grant to build the CMCCHAIN ecosystem</h2>
-    					<p>CMCchain is a brand new network with a burgeoning ecosystem. The Web3 Foundation is sponsoring community development of software services, including:</p>
+    					<h2 class="sectionHeading text-uppercase">Get a grant to build the CMC chain ecosystem</h2>
+    					<p>CMC chain is a brand new network with a burgeoning ecosystem. The Web3 Foundation is sponsoring community development of software services, including:</p>
     					<ul class="style-1">
-    						<li>Development and deployment tooling (e.g. IDEs, CMCchain development kits)</li>
-    						<li>CMCchain Runtime Modules (e.g. interoperability, governance)</li>
-    						<li>Second layer protocols (e.g. dedicated CMCchain, state channels)</li>
+    						<li>Development and deployment tooling (e.g. IDEs, CMC chain development kits)</li>
+    						<li>CMC chain Runtime Modules (e.g. interoperability, governance)</li>
+    						<li>Second layer protocols (e.g. dedicated CMC chain, state channels)</li>
     						<li>Monitoring (e.g. explorers)</li>
     						<li>Protocol integrations (e.g. bridges to other blockchains, distributed file storage)</li>
     					</ul>
-    					<p><a href="#" class="btn btnOutlineRed sm">See Grants and Bounties <span class="ms-2">⟶</span></a></p>
+    					<div class="d-flex">
+							<div class="mx-auto">
+								<a href="#" class="btn btnOutlineRed sm">See Grants and Bounties <span class="ms-2">⟶</span></a>
+							</div>
+						</div>
     				</div>
     				<div class="col-md-6">
-    					<h2 class="sectionHeading text-uppercase">Become a CMCCHAIN Ambassador</h2>
-    					<p>Check out the post and apply to join the vibrant CMCchain community.</p>
-    					<a href="#" class="btn btnOutlineRed sm">Apply to Become an Ambassador <span class="ms-2">⟶</span></a>
+    					<h2 class="sectionHeading text-uppercase">Become a CMC chain Ambassador</h2>
+    					<p>Check out the post and apply to join the vibrant CMC chain community.</p>
+						<div class="d-flex">
+							<div class="mx-auto">
+								<a href="#" class="btn btnOutlineRed sm">Apply to Become an Ambassador <span class="ms-2">⟶</span></a>
+							</div>
+						</div>
+						
     				</div>
     			</div>
     		</div>
     	</section>
-    	<section class="event">
+    	{{-- <section class="event">
     		<div class="container">
     			<div class="row">
     				<div class="col-md-6">
     					<h2 class="sectionHeading text-uppercase">Upcoming events</h2>
-    					<p>Want to host a CMCchain meetup in your city? Check out the resources and guides for hosting your own CMCchain meetup.</p>
+    					<p>Want to host a CMC chain meetup in your city? Check out the resources and guides for hosting your own CMC chain meetup.</p>
     					<a href="#" class="btn btnOutlineRed sm">See Grants and Bounties</a>
     				</div>
     			</div>
@@ -185,10 +194,10 @@
     	<section>
     		<div class="container text-center">
     			<h2 class="sectionHeading">Get your questions answered</h2>
-    			<div class="mb-3"><a href="#" class="btn btnOutlineRed sm">Join the CMCchain Chat</a></div>
-    			<p>or learn how to <a href="#" class="colorpink"><ins>build on CMCchain</ins></a>.</p>
+    			<div class="mb-3"><a href="#" class="btn btnOutlineRed sm">Join the CMC chain Chat</a></div>
+    			<p>or learn how to <a href="#" class="colorpink"><ins>build on CMC chain</ins></a>.</p>
     		</div>
-    	</section>
+    	</section> --}}
     </div>		
 @endsection
 

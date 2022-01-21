@@ -7,17 +7,17 @@
 	    </section>
 	    <section>
 	    	<div class="container">
-	    		<h2 class="sectionHeading">The CMC Chain mission</h2>
+	    		<h2 class="sectionHeading">The mission of CMC chain</h2>
 	    		<div class="row">
 	    			<div class="col-md-6">
-	    				<p>We envision a Web where our identity and our data is our own - safely secured from any central authority.</p>
+	    				<p>We envision a future where our identity and our data is our own - safely and secure.</p>
 	    				<img src="{{ asset('img/img-18.png') }}" class="w-100">
 	    			</div>
 	    			<div class="col-md-6">
-	    				<p>CMC Chain will enable a completely decentralized web where users are in control.</p>
-	    				<p>CMC Chain is built to connect private and consortium chains, public and permissionless networks, oracles, and future technologies that are yet to be created. CMC Chain facilitates an internet where independent blockchains can exchange information and transactions in a trustless way via the Polkadot relay chain.</p>
-	    				<p>CMC Chain makes it easier than ever to create and connect decentralized applications, services, and institutions. By empowering innovators to build better solutions, we seek to free society from its reliance on a broken web where its large institutions can’t violate our trust.</p>
-	    				<a href="#" class="btn btnOutlineRed sm">Learn About the Technology</a>
+	    				<p>CMC chain will enable a completely decentralized web where users are in full control.</p>
+	    				<p>CMC chain is built to connect private and consortium chains, public and permissionless networks, oracles as well as future technologies that are yet to be created. CMC chain facilitates an internet where independent blockchains can exchange information and transactions in a trustless way via the CMC chain relay chain.</p>
+	    				<p>CMC chain makes it easier than ever to create and connect decentralized applications, services and institutions. By empowering innovators to build better solutions we seek to free society from its reliance on a broken web where its large institutions can’t violate our trust.</p>
+	    				{{-- <a href="#" class="btn btnOutlineRed sm">Learn About the Technology</a> --}}
 	    			</div>
 	    		</div>
 	    	</div>
