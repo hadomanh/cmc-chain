@@ -1,24 +1,10 @@
-@font-face {
-    font-family: gothamBook;
-    src: url(../fonts/gotham-book.otf);
-}
-@font-face {
-    font-family: gothamBold;
-    src: url(../fonts/botham-bold.otf);
-}
-@font-face {
-    font-family: gothamMedium;
-    src: url(../fonts/gotham-medium.otf);
-}
-@font-face {
-    font-family: gothamLight;
-    src: url(../fonts/gotham-light.otf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
 body {
-	font-family: gothamBook;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 	color: #636363;
 	background: #fff;
+	font-weight: 300;
 }
 img {
 	max-width: 100%;
@@ -30,23 +16,11 @@ a {
 	transition: all .3s ease-in-out;
 }
 h1,h2,h3,h4,h5,h6 {
-	font-family: gothamMedium;
+	font-weight: 600;
 }
 .form-control:focus {
 	box-shadow: none;
 	outline: none;
-}
-.fw-bold {
-	font-family: gothamBold;
-}
-.fw-light {
-	font-family: gothamLight;
-}
-.fw-medium {
-	font-family: gothamMedium;
-}
-.fw-regular {
-	font-family: gothamBook;
 }
 a.more {
 	display: inline-block;
@@ -77,7 +51,7 @@ section .sectionHeading.style-2:first-letter {
 	color: #e6571d;
 }
 section .sectionSubHeading {
-	font-family: gothamLight;	
+	font-weight: 300;
 	font-size: 20px;
 }
 .mw-700 {
@@ -122,16 +96,16 @@ section .sectionSubHeading {
 .btn {
 	padding: 12px 25px;
 	border-radius: 50px;
-	font-family: gothamMedium;
+	font-weight: 400;
 }
 .btn.sm {
 	border-width: 1px;
-    font-family: 'gothamBook';
+    font-weight: 400;
     padding: 8px 20px;
 }
 .btn.xs {
 	border-width: 1px;
-    font-family: 'gothamBook';
+    font-weight: 400;
     padding: 0 6px;
     font-size: 14px;
 }
@@ -164,7 +138,7 @@ section .sectionSubHeading {
 	color: #fff;
 	font-size: 14px;
 	text-transform: uppercase;
-	font-family: gothamBook;
+	font-weight: 400;
 	padding: 10px;
 	line-height: 100%;
 	cursor: pointer;
@@ -271,7 +245,7 @@ table.v-align-middle th {
 .timeline li {
 	position: relative;
 	padding-left: 20px;
-	font-family: 'gothamMedium';
+	font-weight: 400;
 }
 .timeline li:not(:last-child) {
 	margin-bottom: 15px;
@@ -307,7 +281,7 @@ table.v-align-middle th {
 	margin-bottom: 0;
 	background: none;
 	color: #23253a;
-	font-family: gothamBold;
+	font-weight: 600;
 	text-transform: uppercase;
 	padding: 25px 10px;
 	height: 100%;
@@ -349,7 +323,7 @@ header .top .search i {
 header .top .language .btn {
 	color: #fff;
 	padding: 0;
-	font-family: gothamBook;
+	font-weight: 400;
 }
 header .top .language .btn i {
 	font-size: 30px;
@@ -365,13 +339,10 @@ header .navbar {
 	background: #fff;
 	padding: 0 30px;
 }
-header .navbar .navbar-brand img {
-	width: 200px;
-}
 header .navbar.navbar-expand-lg .nav-link {
 	padding: 20px;
 	color: #636363;
-	font-family: gothamMedium;
+	font-weight: 400;
 	position: relative;
 }
 header .navbar.navbar-expand-lg .nav-link:before {
@@ -489,7 +460,7 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	left: 50%;
 	transform: translate(-50%,-50%);
 	color: #fff;
-	font-family: gothamBold;
+	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 18px;
 	padding: 10px;
@@ -520,7 +491,7 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 .hostedProjects .assetName {
 	color: #92278f;
 	text-transform: uppercase;
-	font-family: gothamBold;
+	font-weight: 600;
 	text-align: center;
 	padding: 5px;
 }
@@ -528,7 +499,7 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	color: #3d107b;
 	padding: 6px;
 	text-transform: uppercase;
-	font-family: gothamBold;
+	font-weight: 600;
 	font-size: 18px;
 	text-align: center;
 	border: 1px solid #bcbec0;
@@ -760,7 +731,7 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	width: 50px;
 }
 #mainnetPage table tr th {
-	font-family: gothamBold;
+	font-weight: 600;
 	white-space: nowrap;
 }
 #mainnetPage table tr th:first-child,
@@ -826,7 +797,7 @@ header .navbar.navbar-expand-lg .nav-item:hover .dropdown-toggle:after {
 	width: 130px;
 }
 #walletPage .whySpendWallet .title {
-	font-family: gothamBold;
+	font-weight: 600;
 	margin: 15px 0;
 }
 #walletPage .download .qrCode {
@@ -1104,7 +1075,7 @@ footer a {
 	color: #fff;
 }
 footer .footerLogo {
-	width: 200px;
+	width: 300px;
 	display: block;
 	margin: 0 auto 60px;
 }
