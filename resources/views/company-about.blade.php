@@ -7,16 +7,16 @@
 	    </section>
 	    <section>
 	    	<div class="container">
-	    		<h2 class="sectionHeading">The mission of CMC chain</h2>
+	    		<h2 class="sectionHeading">The mission of HYPERAS chain</h2>
 	    		<div class="row">
 	    			<div class="col-md-6">
 	    				<p>We envision a future where our identity and our data is our own - safely and secure.</p>
 	    				<img src="{{ asset('img/img-18.png') }}" class="w-100">
 	    			</div>
 	    			<div class="col-md-6">
-	    				<p>CMC chain will enable a completely decentralized web where users are in full control.</p>
-	    				<p>CMC chain is built to connect private and consortium chains, public and permissionless networks, oracles as well as future technologies that are yet to be created. CMC chain facilitates an internet where independent blockchains can exchange information and transactions in a trustless way via the CMC chain relay chain.</p>
-	    				<p>CMC chain makes it easier than ever to create and connect decentralized applications, services and institutions. By empowering innovators to build better solutions we seek to free society from its reliance on a broken web where its large institutions can’t violate our trust.</p>
+	    				<p>HYPERAS chain will enable a completely decentralized web where users are in full control.</p>
+	    				<p>HYPERAS chain is built to connect private and consortium chains, public and permissionless networks, oracles as well as future technologies that are yet to be created. HYPERAS chain facilitates an internet where independent blockchains can exchange information and transactions in a trustless way via the HYPERAS chain relay chain.</p>
+	    				<p>HYPERAS chain makes it easier than ever to create and connect decentralized applications, services and institutions. By empowering innovators to build better solutions we seek to free society from its reliance on a broken web where its large institutions can’t violate our trust.</p>
 	    				{{-- <a href="#" class="btn btnOutlineRed sm">Learn About the Technology</a> --}}
 	    			</div>
 	    		</div>

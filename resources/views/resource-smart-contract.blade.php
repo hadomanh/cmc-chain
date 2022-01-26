@@ -10,7 +10,7 @@
 	    		<h2 class="sectionHeading underline text-uppercase">CMCchain FEATURES & CAPABILITIES IN LAYER-1</h2>
 	    		<div class="row g-0 justify-content-between align-items-center listFeatures">
 	    			<div class="col-md-3 item fw-bold">SMART CONTRACTS & CVM</div>
-	    			<div class="col-md-3 item fw-bold">CMC CHAIN STANDARD ASSETS</div>
+	    			<div class="col-md-3 item fw-bold">HYPERAS CHAIN STANDARD ASSETS</div>
 	    			<div class="col-md-3 item fw-bold">ATOMIC TRANSFERS</div>
 	    			<div class="col-md-3 item fw-bold">REKEYING</div>
 	    		</div>

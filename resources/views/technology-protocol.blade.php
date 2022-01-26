@@ -9,7 +9,7 @@
 	    	<div class="container">
 	    		<h2 class="sectionHeading underline text-uppercase">TECHNOLOGY Core Protocol</h2>
 	    		<p>Algorand removes the technical barriers that for years undermined mainstream blockchain adoption: decentralization, scale, and security. Now you can build on a stable platform you trust.</p>
-	    		<p>Our consensus mechanism is permissionless and PURE PROOF OF STAKETM. It ensures full participation, protection and speed within a truly decentralized network. Blocks are finalized in seconds, with that CMC chain’s transaction throughput is on par with large payment and financial networks. CMC chain is also the first blockchain to provide immediate transaction finality. No forking. No uncertainty.</p>
+	    		<p>Our consensus mechanism is permissionless and PURE PROOF OF STAKETM. It ensures full participation, protection and speed within a truly decentralized network. Blocks are finalized in seconds, with that HYPERAS chain’s transaction throughput is on par with large payment and financial networks. HYPERAS chain is also the first blockchain to provide immediate transaction finality. No forking. No uncertainty.</p>
 	    		<p>The era of a decentralized, borderless economy is here. Algorand is the foundation. Now what will you build?</p>
 	    	</div>
 	    </section>
@@ -32,7 +32,7 @@
 				    		<h2 class="sectionHeading underline text-uppercase">ACHIEVING CONSENSUS</h2>
 				    		<div class="row">
 				    			<div class="col-md-6">
-				    				<p class="text">CMC chain uses cryptographic sortition to select users to propose blocks for a given round. When a block is proposed to the blockchain, a committee of voters is selected to vote on the block proposal. If a super majority of the votes are from honest participants, the block can be certified.</p>
+				    				<p class="text">HYPERAS chain uses cryptographic sortition to select users to propose blocks for a given round. When a block is proposed to the blockchain, a committee of voters is selected to vote on the block proposal. If a super majority of the votes are from honest participants, the block can be certified.</p>
 				    				{{-- <div class="text-center">
 				    					<a href="#" class="btn btnOutlineRed sm">LEARN MORE <span class="ms-2">&xrarr;</span></a>
 				    				</div> --}}
@@ -78,7 +78,7 @@
 				    	<div class="container">
 				    		<h2 class="sectionHeading underline text-uppercase">REWARDS</h2>
 				    		<div class="mw-700 text-center">
-				    			In CMC chain, the power is in the hands of the users holding stake. Every user receives an amount of rewards proportional to their stake for every block that is committed to the chain. We do so to encourage users to join the CMC chain platform and accelerate our path to decentralization.
+				    			In HYPERAS chain, the power is in the hands of the users holding stake. Every user receives an amount of rewards proportional to their stake for every block that is committed to the chain. We do so to encourage users to join the HYPERAS chain platform and accelerate our path to decentralization.
 				    		</div>
 				    	</div>
 				    </section>
@@ -87,7 +87,7 @@
 				    		<h2 class="sectionHeading underline text-uppercase">PROTOCOL EVOLUTION</h2>
 				    		<div class="row">
 				    			<div class="col-md-6">
-				    				CMC chain is rooted in the idea that the system should allow for changes and avoid inflexible policies — enabling both the community and the protocol to evolve. The CMC chain platform takes a consensus approach to protocol changes which facilitates continuous evolution of the protocol and eliminates potential hard forks that could fracture the community. This ability is powered by the CMC chain consensus protocol that enables the users to reach consensus on anything. Not just on the next block but also on any protocol upgrade.
+				    				HYPERAS chain is rooted in the idea that the system should allow for changes and avoid inflexible policies — enabling both the community and the protocol to evolve. The HYPERAS chain platform takes a consensus approach to protocol changes which facilitates continuous evolution of the protocol and eliminates potential hard forks that could fracture the community. This ability is powered by the HYPERAS chain consensus protocol that enables the users to reach consensus on anything. Not just on the next block but also on any protocol upgrade.
 				    			</div>
 				    			<div class="col-md-6">
 				    				<ul class="list-unstyled timeline">
@@ -112,7 +112,7 @@
 								<div class="col-md-6">
 									<div class="ps-3">
 										<h6>Self-Selection</h6>
-										<p>Neither a few delegated users nor a fixed committee is responsible for proposing blocks on the CMC chain. Instead all users are randomly, secretly and continuously selected to participate in the CMC chain consensus protocol. Every block in CMC chain reveals a new unpredictable selection seed that determines which users participate in the next round of block selection. An online user checks whether they were selected to participate by evaluating a Verifiable Random Function (VRF) with their secret key and the selection seed. The VRF acts similar to a weighted lottery where the number of algos that the user has affects the user’s chance of being selected.</p>
+										<p>Neither a few delegated users nor a fixed committee is responsible for proposing blocks on the HYPERAS chain. Instead all users are randomly, secretly and continuously selected to participate in the HYPERAS chain consensus protocol. Every block in HYPERAS chain reveals a new unpredictable selection seed that determines which users participate in the next round of block selection. An online user checks whether they were selected to participate by evaluating a Verifiable Random Function (VRF) with their secret key and the selection seed. The VRF acts similar to a weighted lottery where the number of algos that the user has affects the user’s chance of being selected.</p>
 									</div>
 								</div>
 							</div>
@@ -121,7 +121,7 @@
 							<div class="col-md-6">
 								<div class="pe-3">
 									<h6>User Replaceability</h6>
-									<p class="text">In the CMC chain protocol participants change every round of block selection in order to protect the network against attackers. Before they participate no one knows who the users are and once they participate their message is already propagating through the network so it is too late for an attacker to benefit from attacking them. For each round every set of participants is random and independent of earlier participants.</p>
+									<p class="text">In the HYPERAS chain protocol participants change every round of block selection in order to protect the network against attackers. Before they participate no one knows who the users are and once they participate their message is already propagating through the network so it is too late for an attacker to benefit from attacking them. For each round every set of participants is random and independent of earlier participants.</p>
 									{{-- <div class="text-center">
 										<a href="#" class="btn btnOutlineRed sm">LEARN MORE <span class="ms-2">⟶</span></a>
 									</div> --}}
@@ -140,7 +140,7 @@
 									<img src="{{ asset('img/img-7.jpg') }}" class="w-100">
 								</div>
 								<div class="col-md-6">
-									<p>The CMC chain network has two types of nodes to simultaneously optimize decentralization and high transaction throughput.</p>
+									<p>The HYPERAS chain network has two types of nodes to simultaneously optimize decentralization and high transaction throughput.</p>
 									<p><span class="fw-bold">Relay nodes</span> allow for highly efficient communication paths.</p>
 									<p><span class="fw-bold">Participation nodes</span> propose and vote on blocks.</p>
 									<p>Any user is free to register as a relay or participation node. (Several entities representing a wide array of technical and organizational backgrounds across many different countries and continents have already registered as relay and participation nodes.)</p>
@@ -166,8 +166,8 @@
 								<img src="{{ asset('img/img-9.jpg') }}" class="w-100">
 							</div>
 							<div class="col-md-6">
-								<p>The CMC chain blockchain does not fork. Unlike with proof-of-work protocols two different blocks can never be added to the chain in the same position. Only one block can have the required threshold of signatures in order to be certified in a given round.</p>
-								<p class="text">All transactions are final in CMC chain. Once a block appears users can rely on the transactions it contains immediately as they can be confident that the block will forever be part of the chain. Even if the Internet is split into multiple pools of users only one safe and consistent CMC chain will exist.</p>
+								<p>The HYPERAS chain blockchain does not fork. Unlike with proof-of-work protocols two different blocks can never be added to the chain in the same position. Only one block can have the required threshold of signatures in order to be certified in a given round.</p>
+								<p class="text">All transactions are final in HYPERAS chain. Once a block appears users can rely on the transactions it contains immediately as they can be confident that the block will forever be part of the chain. Even if the Internet is split into multiple pools of users only one safe and consistent HYPERAS chain will exist.</p>
 								{{-- <div class="text-center">
 									<a href="#" class="btn btnOutlineRed sm">LEARN MORE <span class="ms-2">⟶</span></a>
 								</div> --}}
@@ -178,14 +178,14 @@
 						<h2 class="sectionHeading underline text-uppercase">VAULT™</h2>
 						<div class="mw-700 text-center">
 							<p>Decentralized cryptocurrencies rely on participants to keep track of the state of the system in order to verify new transactions. As the number of users and transactions grows, this requirement places a significant burden on the users, as they need to store a large amount of historical data in order to validate new transactions.</p>
-							<p>Vault is a blockchain compression technology that minimizes storage and facilitates joining the CMC chain network.</p>
+							<p>Vault is a blockchain compression technology that minimizes storage and facilitates joining the HYPERAS chain network.</p>
 						</div>
 					</section>
 				</div>
 				<div class="tab-pane fade" id="technical-tab" role="tabpanel" aria-labelledby="contact-tab">
 					<section>
 						<h2 class="sectionHeading underline text-uppercase">ACHIEVING CONSENSUS</h2>
-						<p class="mw-700 text-center mb-5">CMC chain’s decentralized agreement protocol can tolerate an arbitrary number of malicious users as long as honest users hold a super majority of the total stake in the system.</p>
+						<p class="mw-700 text-center mb-5">HYPERAS chain’s decentralized agreement protocol can tolerate an arbitrary number of malicious users as long as honest users hold a super majority of the total stake in the system.</p>
 						<div class="row">
 							<div class="col-md-4">
 								<div class="mb-3">
@@ -218,9 +218,9 @@
 							</div>
 							<div class="col-md-6">
 								<p>Public & Open to All</p>
-								<p>Users do not need the approval of a trusted authority to use the CMC chain blockchain. There is a single class of users and no gatekeepers. Every participant can read every block and have the opportunity to write a transaction in a future block.</p>
+								<p>Users do not need the approval of a trusted authority to use the HYPERAS chain blockchain. There is a single class of users and no gatekeepers. Every participant can read every block and have the opportunity to write a transaction in a future block.</p>
 								<p>Low Cost to Participate</p>
-								<p class="text">The CMC chain platform requires minimal processing power and modest IT resources to join. All online users who possess algos are automatically eligible to participate in block consensus.</p>
+								<p class="text">The HYPERAS chain platform requires minimal processing power and modest IT resources to join. All online users who possess algos are automatically eligible to participate in block consensus.</p>
 								{{-- <div class="text-center">
 									<a href="#" class="btn btnOutlineRed sm">LEARN MORE <span class="ms-2">⟶</span></a>
 								</div> --}}
@@ -234,14 +234,14 @@
 								<img src="{{ asset('img/img-12.jpg') }}" class="w-100">
 							</div>
 							<div class="col-md-6">
-								<p>The CMC chain node repository is open source and publicly available for anyone to audit, use and build upon. The platform is founded in the principles of transparency, inclusivity and collaboration, it is maintained by a dedicated community with a shared vision of a decentralized, borderless future.</p>
+								<p>The HYPERAS chain node repository is open source and publicly available for anyone to audit, use and build upon. The platform is founded in the principles of transparency, inclusivity and collaboration, it is maintained by a dedicated community with a shared vision of a decentralized, borderless future.</p>
 							</div>
 						</div>
 					</section>
 					<section>
 						<div class="mw-700">
 							<h2 class="sectionHeading underline text-uppercase">NETWORK-LEVEL SECURITY PARTITION AND RESILIENCE</h2>
-							<p class="text">The CMC chain protocol is fully secured against an adversary trying to achieve complete control over the network and dictate which users receive messages and when. Even when the network is partitioned into multiple non-connected networks, CMC chain’s blockchain does not fork and users balances remain secure. An adversary is never able to present two honest users with two different blocks for the same round. All transactions that appear on the blockchain are always final. CMC chain is able to recover after a partition is resolved and guarantees that new blocks will be generated at the same speed as before the partition.</p>
+							<p class="text">The HYPERAS chain protocol is fully secured against an adversary trying to achieve complete control over the network and dictate which users receive messages and when. Even when the network is partitioned into multiple non-connected networks, HYPERAS chain’s blockchain does not fork and users balances remain secure. An adversary is never able to present two honest users with two different blocks for the same round. All transactions that appear on the blockchain are always final. HYPERAS chain is able to recover after a partition is resolved and guarantees that new blocks will be generated at the same speed as before the partition.</p>
 							{{-- <div class="text-center">
 								<a href="#" class="btn btnOutlineRed sm">LEARN MORE <span class="ms-2">⟶</span></a>
 							</div> --}}
@@ -254,7 +254,7 @@
 								<img src="{{ asset('img/img-13.jpg') }}" class="w-100">
 							</div>
 							<div class="col-md-6">
-								<p class="text">The CMC chain node repository is open sourced and publicly available for anyone to audit, use, and build upon. The platform is founded in principles of transparency, inclusivity, and collaboration and maintained by a dedicated community with a shared vision of a decentralized, borderless future.</p>
+								<p class="text">The HYPERAS chain node repository is open sourced and publicly available for anyone to audit, use, and build upon. The platform is founded in principles of transparency, inclusivity, and collaboration and maintained by a dedicated community with a shared vision of a decentralized, borderless future.</p>
 								<div class="text-center">
 									<a href="#" class="btn btnOutlineRed sm">LEARN MORE <span class="ms-2">⟶</span></a>
 								</div>

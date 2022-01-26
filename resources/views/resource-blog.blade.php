@@ -7,7 +7,7 @@
     </section>
     <section class="listBlog">
         <div class="container">
-            <h2 class="sectionHeading">CMC chain blog</h2>
+            <h2 class="sectionHeading">HYPERAS chain blog</h2>
             {{-- <div class="row">
                 @foreach ($news as $newsItem)
                 <div class="col-lg-4 col-md-6 item">

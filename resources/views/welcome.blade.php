@@ -22,8 +22,8 @@
 		<section class="welcome bgWhite bgArrow">
 			<div class="container">
 				<div class="welcomeText">
-					<h2 class="sectionHeading">Welcome to CMC chain</h2>
-					<p>CMC chain is the first decentralized interoperable and self-optimised blockchain infrastructure. We aim to push the current boundaries by solving one of the most prominent challenges facing blockchain technology - fragmentation of the blockchain ecosystems.</p>
+					<h2 class="sectionHeading">Welcome to HYPERAS chain</h2>
+					<p>HYPERAS chain is the first decentralized interoperable and self-optimised blockchain infrastructure. We aim to push the current boundaries by solving one of the most prominent challenges facing blockchain technology - fragmentation of the blockchain ecosystems.</p>
 					<p>Our goal is to create a unified platform that combines all participants collective strengths to lay the foundation for global blockchain mass adoption.</p>
 
 				</div>
@@ -36,11 +36,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<h2 class="sectionHeading">What is CMC chain?</h2>
+						<h2 class="sectionHeading">What is HYPERAS chain?</h2>
 						
-						<p>CMC chain is a blockchain infrastructure that helps connect other blockchains.</p>
-						<p>With our non-invasive cross-chain technology CMC chain operates as a data conduit that allows cross-chain communications between public or private blockchains regardless of their protocols. CMC chain can transfer both assets and data without requiring any change on participating blockchains.</p>
-						<p>This allows developers to build cross-chain applications on CMC chain with ease. Our unified infrastructure helps solutions run on multiple platforms by enabling interoperability among them and making the implementation as straightforward as possible from the developer's perspective.</p>
+						<p>HYPERAS chain is a blockchain infrastructure that helps connect other blockchains.</p>
+						<p>With our non-invasive cross-chain technology HYPERAS chain operates as a data conduit that allows cross-chain communications between public or private blockchains regardless of their protocols. HYPERAS chain can transfer both assets and data without requiring any change on participating blockchains.</p>
+						<p>This allows developers to build cross-chain applications on HYPERAS chain with ease. Our unified infrastructure helps solutions run on multiple platforms by enabling interoperability among them and making the implementation as straightforward as possible from the developer's perspective.</p>
 
 					</div>
 					<div class="col-md-6 text-center d-none d-md-block">
@@ -66,7 +66,7 @@
 						<div class="item">
 							<img src="{{ asset('img/icon-developability.png') }}" alt="">
 							<h5 class="title">Developability</h5>
-							<p>Developing dApps on CMC chain is more convenient than ever. Our technology helps developers cater to the broadest possible user base. KSML enables cross-chain-ready smart contracts. CMNR makes dApps deployable wherever they fit best.</p>
+							<p>Developing dApps on HYPERAS chain is more convenient than ever. Our technology helps developers cater to the broadest possible user base. KSML enables cross-chain-ready smart contracts. CMNR makes dApps deployable wherever they fit best.</p>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6">
@@ -83,7 +83,7 @@
 		<!-- Hosted projects -->
 		<section class="hostedProjects bgLightBlue bgArrow">
 			<div class="container">
-				<h2 class="sectionHeading">CMC chain Foundation Hosted Projects</h2>
+				<h2 class="sectionHeading">HYPERAS chain Foundation Hosted Projects</h2>
 				<div class="row">
 					<div class="col-lg-3 col-md-6">
 						<div class="item projectFinished">

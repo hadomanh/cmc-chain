@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<!-- Main Tag -->
-	<title>CMC CHAIN</title>
-	<meta id="PagKeywords" name="keywords" content="CMC CHAIN" />
+	<title>HYPERAS CHAIN</title>
+	<meta id="PagKeywords" name="keywords" content="HYPERAS CHAIN" />
 	<meta id="PagDescription" name="description" content="" />
 	<link id="LinkIcon" href="" type="image/x-icon" rel="shortcut icon" />
 	<link rel="icon" href="{{ asset('img/favicon.png') }}" type="image/ico" />
@@ -15,10 +15,10 @@
 	<!-- Facebook Tag -->
 	<meta property="og:url" content=""/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:title" content="CMC CHAIN"/>
-	<meta property="og:description" content="CMC CHAIN"/>	
+	<meta property="og:title" content="HYPERAS CHAIN"/>
+	<meta property="og:description" content="HYPERAS CHAIN"/>	
 	<meta property="og:image" content=""/>
-	<meta property="og:site_name" content="CMC CHAIN" />
+	<meta property="og:site_name" content="HYPERAS CHAIN" />
 
 	<!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/fa881189ef.js" crossorigin="anonymous"></script>
@@ -38,7 +38,7 @@
 			<div class="top">
 				<ul class="list-unstyled d-flex align-items-center justify-content-end m-0">
 					<li class="link">
-						<a href="#">Buy CMC</a>
+						<a href="#">Buy HYRA</a>
 						<a href="{{ route('company.contact') }}">Support</a>
 					</li>
 					{{-- <li class="search">
@@ -88,8 +88,8 @@
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li><a class="dropdown-item" href="https://testnet.cmcscan.com/" target="_blank">Testnet</a></li>
 								<li><a class="dropdown-item" href="javascript:void(0)">Mainnet</a></li>
-								<li><a class="dropdown-item" href="javascript:void(0)">CMC Wallets</a></li>
-								<li><a class="dropdown-item" href="javascript:void(0)">Wowidex</a></li>
+								<li><a class="dropdown-item" href="https://hyrawallet.com" target="_blank">Hyra Wallet</a></li>
+								<li><a class="dropdown-item" href="https://hyradex.com" target="_blank">Hyradex</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
@@ -97,11 +97,11 @@
 								External Environment
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="https://cmcinvest.io/" target="_blank">CMC Invest</a></li>
+								<li><a class="dropdown-item" href="https://hyrainvest.com/" target="_blank">Hyra Invest</a></li>
 								<li><a class="dropdown-item" href="https://cmcchain.foundation/" target="_blank">CMC Foundation</a></li>
-								<li><a class="dropdown-item" href="https://diasplat.com/" target="_blank">Diasplat</a></li>
-								<li><a class="dropdown-item" href="https://onstora.com/" target="_blank">Onstora</a></li>
-								<li><a class="dropdown-item" href="https://paygate.global/" target="_blank">Payment Gate</a></li>
+								<li><a class="dropdown-item" href="https://pindias.com/" target="_blank">Pindias</a></li>
+								<li><a class="dropdown-item" href="https://divega.com/" target="_blank">Divega</a></li>
+								<li><a class="dropdown-item" href="https://rapitalbank.com/" target="_blank">Rapital Bank</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
@@ -161,7 +161,7 @@
 				<div class="row align-items-center">
 					<div class="col-md-6">
 						<img src="{{ asset('img/logo-footer.png') }}" class="footerLogo">
-						<h6 class="title"><span>CMC CHAIN LTD (UK)</span></h6>
+						<h6 class="title"><span>HYPERAS CHAIN LTD (UK)</span></h6>
 						<ul class="list-unstyled">
 							<li class="mb-2"><span class="fw-medium">Address:</span> No. 40 Gracechurch Street, London, EC3V 0BT, UK</li>
 							<li><span class="fw-medium">Contact:</span> support@cmcchain.io</li>
@@ -183,18 +183,18 @@
 								<ul>
 									<li><a href="https://testnet.cmcscan.com/" target="_blank">Testnet</a></li>
 									<li><a href="javascript:void(0)">Mainnet</a></li>
-									<li><a href="javascript:void(0)">CMC Wallets</a></li>
-									<li><a href="javascript:void(0)">Wowidex</a></li>
+									<li><a href="https://hyrawallet.com" target="_blank">Hyra Wallet</a></li>
+									<li><a href="https://hyradex.com" target="_blank">Hyradex</a></li>
 								</ul>
 							</div>
 							<div class="col-md-6">
 								<h6 class="title"><span>External Environment</span></h6>
 								<ul>
-									<li><a href="https://cmcinvest.io/" target="_blank">CMC Invest</a></li>
-									<li><a href="https://cmcchain.foundation/" target="_blank">CMC Foundation </a></li>
-									<li><a href="https://diasplat.com/" target="_blank">Diasplat</a></li>
-									<li><a href="https://onstora.com/" target="_blank">Onstora</a></li>
-									<li><a href="https://paygate.global/" target="_blank">Payment Gate </a></li>
+									<li><a href="https://hyrainvest.com/" target="_blank">Hyra Invest</a></li>
+									<li><a href="https://cmcchain.foundation/" target="_blank">CMC Foundation</a></li>
+									<li><a href="https://pindias.com/" target="_blank">Pindias</a></li>
+									<li><a href="https://divega.com/" target="_blank">Divega</a></li>
+									<li><a href="https://rapitalbank.com/" target="_blank">Rapital Bank</a></li>
 								</ul>
 							</div>
 							<div class="col-md-6">
@@ -247,7 +247,7 @@
 					</div>
 					<div class="col-md-6 order-md-1">
 						<div class="copyright">
-							<p class="mb-1">Copyright © 2021 - 2022 CMCchain.io. All rights reserved.</p>
+							<p class="mb-1">Copyright © 2021 - 2022 Hyperaschain.com. All rights reserved.</p>
 							<a href="">Privacy Notice</a>   |   <a href="">Legal</a>   |   <a href="">Status</a>   |   <a href="">Cookie Preferences</a>
 						</div>
 					</div>
