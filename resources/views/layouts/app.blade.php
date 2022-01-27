@@ -86,7 +86,7 @@
 								Ecosystem
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="https://testnet.cmcscan.com/" target="_blank">Testnet</a></li>
+								<li><a class="dropdown-item" href="https://testnet.hyrascan.com/" target="_blank">Testnet</a></li>
 								<li><a class="dropdown-item" href="javascript:void(0)">Mainnet</a></li>
 								<li><a class="dropdown-item" href="https://hyrawallet.com" target="_blank">Hyra Wallet</a></li>
 								<li><a class="dropdown-item" href="https://hyradex.com" target="_blank">Hyradex</a></li>
@@ -98,7 +98,7 @@
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li><a class="dropdown-item" href="https://hyrainvest.com/" target="_blank">Hyra Invest</a></li>
-								<li><a class="dropdown-item" href="https://cmcchain.foundation/" target="_blank">CMC Foundation</a></li>
+								<!-- <li><a class="dropdown-item" href="https://cmcchain.foundation/" target="_blank">CMC Foundation</a></li> -->
 								<li><a class="dropdown-item" href="https://pindias.com/" target="_blank">Pindias</a></li>
 								<li><a class="dropdown-item" href="https://divega.com/" target="_blank">Divega</a></li>
 								<li><a class="dropdown-item" href="https://rapitalbank.com/" target="_blank">Rapital Bank</a></li>
@@ -164,7 +164,7 @@
 						<h6 class="title"><span>HYPERAS CHAIN LTD (UK)</span></h6>
 						<ul class="list-unstyled">
 							<li class="mb-2"><span class="fw-medium">Address:</span> No. 40 Gracechurch Street, London, EC3V 0BT, UK</li>
-							<li><span class="fw-medium">Contact:</span> support@cmcchain.io</li>
+							<!-- <li><span class="fw-medium">Contact:</span> support@cmcchain.io</li> -->
 						</ul>
 					</div>
 					<div class="col-md-6">
@@ -181,7 +181,7 @@
 							<div class="col-md-6">
 								<h6 class="title"><span>Ecosystem</span></h6>
 								<ul>
-									<li><a href="https://testnet.cmcscan.com/" target="_blank">Testnet</a></li>
+									<li><a href="https://testnet.hyrascan.com/" target="_blank">Testnet</a></li>
 									<li><a href="javascript:void(0)">Mainnet</a></li>
 									<li><a href="https://hyrawallet.com" target="_blank">Hyra Wallet</a></li>
 									<li><a href="https://hyradex.com" target="_blank">Hyradex</a></li>
@@ -191,7 +191,7 @@
 								<h6 class="title"><span>External Environment</span></h6>
 								<ul>
 									<li><a href="https://hyrainvest.com/" target="_blank">Hyra Invest</a></li>
-									<li><a href="https://cmcchain.foundation/" target="_blank">CMC Foundation</a></li>
+									<!-- <li><a href="https://cmcchain.foundation/" target="_blank">CMC Foundation</a></li> -->
 									<li><a href="https://pindias.com/" target="_blank">Pindias</a></li>
 									<li><a href="https://divega.com/" target="_blank">Divega</a></li>
 									<li><a href="https://rapitalbank.com/" target="_blank">Rapital Bank</a></li>
